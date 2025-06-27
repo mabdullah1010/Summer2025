@@ -1,0 +1,391 @@
+---
+title: "ssri markdown"
+author: "Muhammad Abdullah"
+date: "2025-06-25"
+output: word_document
+---
+
+
+```{r}
+library(dplyr)
+library(tidyverse)
+
+dt_data <- read.csv("formatted_data.csv", header=TRUE)
+
+dt_data <- dt_data %>%
+  filter(
+    question_number %in% c(1, 2, 3),
+    as.numeric(question_response) >= 0,
+    as.numeric(question_response) <= 5
+  )
+
+
+dt_data_com212 <- dt_data %>% filter(course=="COM212")
+dt_data_com214 <- dt_data %>% filter(course=="COM214")
+
+
+question1_212 <- dt_data %>% filter(course=="COM212", question_number=="1")
+question2_212 <- dt_data %>% filter(course=="COM212", question_number=="2")
+question3_212 <- dt_data %>% filter(course=="COM212", question_number=="3")
+question4_212 <- dt_data %>% filter(course=="COM212", question_number=="4")
+
+
+question1_214 <- dt_data %>% filter(course=="COM214", question_number=="1")
+question2_214 <- dt_data %>% filter(course=="COM214", question_number=="2")
+question3_214 <- dt_data %>% filter(course=="COM214", question_number=="3")
+question4_214 <- dt_data %>% filter(course=="COM214", question_number=="4")
+
+```
+
+
+
+
+
+
+
+
+```{r}
+question1_212_frequency <- question1_212 %>%
+  group_by(class_number) %>%
+  summarise(freq = n())
+
+question1_212_frequency_g <- ggplot(question1_212_frequency, aes(x = as.numeric(class_number), y = freq)) +
+  geom_col(fill = "steelblue") +
+  geom_smooth(se = FALSE, color = "red", method = "loess") +
+  labs(x = "Class Number", y = "Frequency", title = "Response Frequency by Class Number COM 212 Q1") +
+  theme_minimal()
+
+question1_212_frequency_g
+
+
+##
+question2_212_frequency <- question2_212 %>%
+  group_by(class_number) %>%
+  summarise(freq = n())
+
+question2_212_frequency_g <- ggplot(question2_212_frequency, aes(x = as.numeric(class_number), y = freq)) +
+  geom_col(fill = "steelblue") +
+  geom_smooth(se = FALSE, color = "red", method = "loess") +
+  labs(x = "Class Number", y = "Frequency", title = "Response Frequency by Class Number COM 212 Q2") +
+  theme_minimal()
+
+question2_212_frequency_g
+
+##
+question3_212_frequency <- question3_212 %>%
+  group_by(class_number) %>%
+  summarise(freq = n())
+
+question3_212_frequency_g <- ggplot(question3_212_frequency, aes(x = as.numeric(class_number), y = freq)) +
+  geom_col(fill = "steelblue") +
+  geom_smooth(se = FALSE, color = "red", method = "loess") +
+  labs(x = "Class Number", y = "Frequency", title = "Response Frequency by Class Number COM 212 Q3") +
+  theme_minimal()
+
+question3_212_frequency_g
+
+##
+question4_212_frequency <- question4_212 %>%
+  group_by(class_number) %>%
+  summarise(freq = n())
+
+question4_212_frequency_g <- ggplot(question4_212_frequency, aes(x = as.numeric(class_number), y = freq)) +
+  geom_col(fill = "steelblue") +
+  geom_smooth(se = FALSE, color = "red", method = "loess") +  
+  labs(x = "Class Number", y = "Frequency", title = "Response Frequency by Class Number COM 212 Q4") +
+  theme_minimal()
+
+question4_212_frequency_g
+
+##
+question1_214_frequency <- question1_214 %>%
+  group_by(class_number) %>%
+  summarise(freq = n())
+
+question1_214_frequency_g <- ggplot(question1_214_frequency, aes(x = as.numeric(class_number), y = freq)) +
+  geom_col(fill = "steelblue") +
+  geom_smooth(se = FALSE, color = "red", method = "loess") +
+  labs(x = "Class Number", y = "Frequency", title = "Response Frequency by Class Number COM 214 Q1") +
+  theme_minimal()
+
+question1_214_frequency_g
+
+
+##
+question2_214_frequency <- question2_214 %>%
+  group_by(class_number) %>%
+  summarise(freq = n())
+
+question2_214_frequency_g <- ggplot(question2_214_frequency, aes(x = as.numeric(class_number), y = freq)) +
+  geom_col(fill = "steelblue") +
+  geom_smooth(se = FALSE, color = "red", method = "loess") +
+  labs(x = "Class Number", y = "Frequency", title = "Response Frequency by Class Number COM 214 Q2") +
+  theme_minimal()
+
+question2_214_frequency_g
+
+##
+question3_214_frequency <- question3_214 %>%
+  group_by(class_number) %>%
+  summarise(freq = n())
+
+question3_214_frequency_g <- ggplot(question3_214_frequency, aes(x = as.numeric(class_number), y = freq)) +
+  geom_col(fill = "steelblue") +
+  geom_smooth(se = FALSE, color = "red", method = "loess") +
+  labs(x = "Class Number", y = "Frequency", title = "Response Frequency by Class Number COM 214 Q3") +
+  theme_minimal()
+
+question3_214_frequency_g
+
+
+##
+question4_214_frequency <- question4_214 %>%
+  group_by(class_number) %>%
+  summarise(freq = n())
+
+question4_214_frequency_g <- ggplot(question4_214_frequency, aes(x = as.numeric(class_number), y = freq)) +
+  geom_col(fill = "steelblue") +
+  geom_smooth(se = FALSE, color = "red", method = "loess") +  
+  labs(x = "Class Number", y = "Frequency", title = "Response Frequency by Class Number COM 214 Q4") +
+  theme_minimal()
+
+question4_214_frequency_g
+
+###
+#maybe we can fit a cubic polynomial
+
+model <- lm(freq ~ poly(class_number, 3), data = question3_214_frequency)
+ggplot(question3_214_frequency, aes(x = class_number, y = freq)) +
+  geom_col(fill = "steelblue") +
+  geom_smooth(method = "lm", formula = y ~ poly(x, 3), se = FALSE, color = "red")
+
+```
+
+
+
+
+```{r}
+q1_212_data <- dt_data %>%
+  filter(question_number == 1, course == "COM212")
+
+q1_212_scores <- ggplot(q1_212_data, aes(x = class_number, y = as.numeric(question_response), group = student_id)) +
+  geom_line(aes(color = factor(student_id)), alpha = 0.3, size = 0.5) +
+  geom_point(alpha = 0.5, size = 1.5) +
+  stat_summary(fun = mean, aes(group = 1), geom = "line", color = "black", size = 1.2) +
+  labs(
+    title = "Q1 Preparedness: Individual Students + Class Average (COM212)",
+    x = "Class Number",
+    y = "Preparedness Score"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "none")
+
+q1_212_scores
+
+##
+q2_212_data <- dt_data %>%
+  filter(question_number == 2, course == "COM212")
+
+q2_212_scores <- ggplot(q2_212_data, aes(x = class_number, y = as.numeric(question_response), group = student_id)) +
+  geom_line(aes(color = factor(student_id)), alpha = 0.3, size = 0.5) +
+  geom_point(alpha = 0.5, size = 1.5) +
+  stat_summary(fun = mean, aes(group = 1), geom = "line", color = "black", size = 1.2) +
+  labs(
+    title = "Q2 Well being: Individual Students + Class Average (COM212)",
+    x = "Class Number",
+    y = "Preparedness Score"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "none")
+
+q2_212_scores
+
+##
+q3_212_data <- dt_data %>%
+  filter(question_number == 3, course == "COM212")
+
+q3_212_scores <- ggplot(q3_212_data, aes(x = class_number, y = as.numeric(question_response), group = student_id)) +
+  geom_line(aes(color = factor(student_id)), alpha = 0.3, size = 0.5) +
+  geom_point(alpha = 0.5, size = 1.5) +
+  stat_summary(fun = mean, aes(group = 1), geom = "line", color = "black", size = 1.2) +
+  labs(
+    title = "Q3 Support: Individual Students + Class Average (COM212)",
+    x = "Class Number",
+    y = "Preparedness Score"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "none")
+
+q3_212_scores
+```
+
+
+Are students who feel more supported more emotionally positive?
+
+scatter plot of q2 and q3
+```{r}
+library(purrr)
+
+student_wide <- dt_data %>%
+  filter(question_number %in% c(1, 2, 3)) %>%
+    mutate(question_response = as.numeric(question_response)) %>%
+  filter(!is.na(question_response), question_response >= 0, question_response <= 5, class(question_response)=="numeric") %>%
+  pivot_wider(
+    id_cols = c(student_id, class_number, course),
+    names_from = question_number,
+    values_from = question_response,
+    names_prefix = "Q"
+  ) %>%
+  
+  rename(Q1 = Q1, Q2 = Q2, Q3 = Q3) %>%
+  drop_na(Q1, Q2, Q3) %>%
+  arrange(student_id, class_number)
+student_wide <- student_wide %>%
+  filter(
+    pmap_lgl(select(., Q1, Q2, Q3), ~ all(map_int(list(...), length) == 1))
+  )
+
+```
+
+
+
+
+```{r}
+g1 <- ggplot(student_wide, aes(x = as.numeric(Q1), y = as.numeric(Q3))) +
+  geom_point()+
+  geom_smooth(method="lm", se=FALSE)+
+  labs(
+    x="Prepardness for today's class",
+    y="Comfort/Support for the course"
+  )
+
+
+g1
+
+g2 <- ggplot(student_wide, aes(x = as.numeric(Q2), y = as.numeric(Q3))) +
+  geom_point()+
+  geom_smooth(method="lm", se=FALSE)+
+    labs(
+    x="Emotional Well being today",
+    y="Comfort/Support for the course"
+  )
+
+
+
+g2
+
+```
+
+
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+```
+
+
