@@ -2,10 +2,12 @@ import google.generativeai as genai
 import pandas as pd
 import os
 import time
+from dotenv import load_dotenv
 
-GEMINI_API_KEY = os.getenv(GEMINI_API_KEY)
 
+load_dotenv()
 
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 import google.generativeai as genai
 
 genai.configure(api_key=GEMINI_API_KEY)
@@ -38,7 +40,7 @@ def process_csv_with_gemini():
         print(f"Successfully loaded '{csv_file_path}'.")
         print(f"Columns found: {df.columns.tolist()}")
     except FileNotFoundError:
-        print(f"Error: CSV file not found at '{csv_file_path}'. Please check the path.")
+        print(f"Error: CSV file not found at '{csv_file_path}'. Please check path.")
         return
     except Exception as e:
         print(f"Error reading CSV file: {e}")
@@ -58,7 +60,7 @@ def process_csv_with_gemini():
         Preserve the first-person voice and tone (e.g., "I think...", "I feel...", etc.). 
         Keep the summary faithful to the original intent. Make summary is meaningful.
 
-        If the response is blank, meaningless, or not understandable, just return: NA
+        If the response is blank, meaningless, not serving relevant purpose,or not understandable, just return: NA
 
         Student response: {column_value}"""
 
@@ -68,7 +70,7 @@ def process_csv_with_gemini():
         gemini_response = get_gemini_response(full_prompt)
         df.at[index, output_column_name] = gemini_response
         print(f"Gemini response recorded for '{column_value}'.")
-        time.sleep(0.5) #delay for hit rate
+        time.sleep(2) #delay for hit rate
 
     base_name, ext = os.path.splitext(csv_file_path)
     output_csv_file_path = f"{base_name}_gemini_processed{ext}"

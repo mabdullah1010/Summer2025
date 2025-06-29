@@ -1,0 +1,608 @@
+student_id,class_number,course,Q1,Q2,Q3,question_response,summary
+4806,8,COM214,5,5,5,lets go,NA
+4806,9,COM214,5,5,5,NA,NA
+4806,14,COM214,5,5,5,5,NA
+4806,16,COM214,5,5,5,5,NA
+4806,21,COM214,5,5,5,this is garzain pls save my answers😭😭😭😭,NA
+4806,25,COM214,5,5,5,no,NA
+6147,5,COM214,4,3,5,not right now,NA
+6147,7,COM214,3,3,4,no,NA
+6147,8,COM214,2,2,3,no,NA
+6147,9,COM214,4,2,3,NA,NA
+6147,14,COM214,4,1,3,NA,NA
+6147,16,COM214,2,2,4,NA,NA
+6149,5,COM214,5,4,5,NA,NA
+6149,8,COM214,4,3,5,NA,NA
+6149,9,COM214,5,4,5,NA,NA
+6149,12,COM214,4,4,5,NA,NA
+6149,13,COM214,4,5,5,NA,NA
+6194,5,COM212,2,4,1,"I feel like the homework assignments do not reflect the work we do in class, so sitting down to do it and it is unfamiliar is discouraging. The TA sessions are helpful, but it would be nice to have something that I feel prepared to figure out on my own.","I find the homework assignments disconnected from classwork, making them discouraging; I would appreciate assignments that better align with what we cover in class so I feel more prepared to tackle them independently."
+6194,7,COM212,4,5,4,NA,NA
+6194,8,COM212,4,3,4,no,NA
+6194,9,COM212,3,3,3,it would help to see code alongside the explanation of different strings and lists- like the looped array,"It would help me to see code examples alongside explanations of strings, lists, and looped arrays."
+6194,10,COM212,4,4,3,no,NA
+6194,12,COM212,4,4,3,no,NA
+6194,13,COM212,2,3,2,no,NA
+6194,17,COM212,4,1,4,no,NA
+6194,20,COM212,4,3,2,NA,NA
+6194,21,COM212,3,4,3,no,NA
+6194,22,COM212,4,4,3,no,NA
+6194,25,COM212,4,3,2,no,NA
+6236,5,COM214,4,3,4,NA,NA
+6236,7,COM214,4,3,4.5,NA,NA
+6236,8,COM214,4,2.5,4,NA,NA
+6236,9,COM214,4,3.5,4,NA,NA
+6236,10,COM214,5,3,4.5,NA,NA
+6236,13,COM214,5,3.5,5,NA,NA
+6236,15,COM214,5,3,4.5,NA,NA
+6236,16,COM214,4,3.5,5,NA,NA
+6236,17,COM214,4.5,3.5,5,NA,NA
+6236,18,COM214,5,3,4.5,NA,NA
+6236,19,COM214,4.5,3,5,NA,NA
+6236,20,COM214,5,4,5,NA,NA
+6236,22,COM214,4,3,5,NA,NA
+6236,24,COM214,5,4,5,NA,NA
+6236,25,COM214,5,4,5,NA,NA
+6236,26,COM214,4,4.5,5,NA,NA
+6285,5,COM212,3,1,3,NA,NA
+6285,9,COM212,0,0,2,NA,NA
+6285,11,COM212,3,3,2,complaints about midterm from past years are scaring me,"I'm concerned about the difficulty of past midterms, which is making me anxious about the exam."
+6285,14,COM212,3,3,3,NA,NA
+6285,17,COM212,2,4,3,na,NA
+6285,18,COM212,3,2,3,NA,NA
+6285,19,COM212,3,2,3,NA,NA
+6285,20,COM212,3,3,3,NA,NA
+6285,21,COM212,2,2,3,NA,NA
+6285,22,COM212,2,2,2,NA,NA
+6285,23,COM212,2,2,2,NA,NA
+6285,24,COM212,3,2,3,NA,NA
+6285,25,COM212,2,2,2,NA,NA
+6286,5,COM212,3,4,5,"I am still quite behind in most of my classes because of the flu and just arriving on campus later than everyone else, I'm hoping that i can have a bit of grace with assignment flexibility in due dates so that i can catch up and be at the same pace as the rest of the class.","I am behind due to illness and a late campus arrival, so flexibility with assignment due dates would help me catch up and stay on pace with the class."
+6286,7,COM212,2.5,0.25,3.75,I am still grieving so I might not be operating at 100% these days...,"I'm currently grieving, so I may not be operating at my full capacity right now."
+6286,8,COM212,0,0.2,3,"I'm struggling alot, but im still trying to show up and put in the most effort i can.",I'm struggling a lot but am making an effort to attend and participate fully in the course.
+6286,9,COM212,3,2,3.78,"Feeling like I'm coming much much closer to catching up, not there yet but I'm feeling more accustomed to everything as time goes on. I need help fixing errors in my PA then I'm going to finish catching up on the HW",I need help fixing errors in my programming assignment so I can finish catching up on the homework.
+6286,10,COM212,1.5,3.1,3.75,I like to rewatch the class recordings so making sure that the content that is visible in the class room is visible on the recording is really important to me.,"I rely on class recordings, so it's important that all classroom content is clearly visible in the recordings."
+6286,12,COM212,3.7,2.8,2.5,"If I we can procure a tutor for me, I think I would feel more supported.",I would feel more supported in this course if a tutor could be provided for me.
+6286,13,COM212,1,1,1.5,Maybe a one on one during office hours,I would benefit from a one-on-one meeting during office hours.
+6286,14,COM212,3.5,3,4,NA,NA
+6286,17,COM212,3,3.7,3.4,NA,NA
+6286,18,COM212,2,3.4,4.5,NA,NA
+6286,19,COM212,3,3.9,4,NA,NA
+6286,20,COM212,3,2,4,NA,NA
+6286,21,COM212,3.4,3.9,4,NA,NA
+6286,22,COM212,3,2,3,NA,NA
+6286,25,COM212,2,1,2.5,"I'm working to resubmit my old assignments that I wasn't able to do my best on, I'm wondering how late marks will end up affecting my whole grade and if i may be able to have some extra credit",I'm concerned about how late penalties will impact my grade and would appreciate information about extra credit opportunities.
+6288,5,COM214,4,2.5,3,I was thinking about maybe lowering the writing limit for the SWA. I've been finding it really hard to get to the 500 without feeling like I'm just summarizing everything I just read. It gets a bit frustrating because I feel like I'm not doing good enough on them.,"I find the 500-word limit for the SWA challenging and would appreciate a lower word count, as meeting it feels repetitive and affects my confidence."
+6288,9,COM214,4,3.5,4,NA,NA
+6288,10,COM214,4,4,4,NA,NA
+6288,12,COM214,3,2,3,NA,NA
+6288,13,COM214,4,3,4,NA,NA
+6288,14,COM214,4,4,4,NA,NA
+6288,15,COM214,3,2,4,NA,NA
+6288,16,COM214,4,4,4,NA,NA
+6288,17,COM214,4,3,4,NA,NA
+6288,18,COM214,4,4,4,NA,NA
+6288,19,COM214,4,2,4,NA,NA
+6288,20,COM214,4,3,4,NA,NA
+6288,21,COM214,3,2,4,NA,NA
+6288,22,COM214,3,3,4,NA,NA
+6288,25,COM214,3,2,4,NA,NA
+6288,26,COM214,3,3,4,NA,NA
+6289,5,COM214,5,5,5,NA,NA
+6289,7,COM214,5,5,5,NA,NA
+6289,8,COM214,5,5,5,NA,NA
+6289,9,COM214,5,5,5,NA,NA
+6289,10,COM214,5,5,5,NA,NA
+6289,11,COM214,5,5,5,NA,NA
+6289,12,COM214,5,5,3,No,NA
+6289,13,COM214,5,5,5,NA,NA
+6289,14,COM214,5,5,5,no,NA
+6289,15,COM214,5,5,5,no,NA
+6289,16,COM214,5,5,5,no,NA
+6289,17,COM214,5,5,5,NA,NA
+6289,18,COM214,5,5,5,NA,NA
+6289,19,COM214,5,5,5,NA,NA
+6289,20,COM214,5,5,5,NA,NA
+6289,21,COM214,5,5,5,NA,NA
+6289,22,COM214,5,5,5,NA,NA
+6289,24,COM214,5,5,5,NA,NA
+6289,25,COM214,5,5,5,NA,NA
+6289,26,COM214,5,5,5,NA,NA
+6374,7,COM212,3,3,3,NA,NA
+6374,8,COM212,3,4,3,NA,NA
+6374,9,COM212,3,5,3.5,NA,NA
+6374,10,COM212,3,4,3,NA,NA
+6374,11,COM212,2,3,3.5,NA,NA
+6374,12,COM212,3,4,3,NA,NA
+6374,13,COM212,3,4,3,NA,NA
+6374,17,COM212,2,3,3,NA,NA
+6374,18,COM212,2,2,3,NA,NA
+6374,21,COM212,4,4,3,NA,NA
+6374,24,COM212,3,3,4,NA,NA
+6376,5,COM214,4,4,4,NA,NA
+6376,7,COM214,5,4,4,no,NA
+6376,8,COM214,2,0,4,No,NA
+6376,15,COM214,1,4,3,NA,NA
+6376,16,COM214,3,3,3,NA,NA
+6376,18,COM214,2,2,3,NA,NA
+6405,5,COM212,3,4,3,nope,NA
+6405,7,COM212,4,5,4,nope,NA
+6405,8,COM212,4,4,3,nope,NA
+6405,9,COM212,3,2,3,nope,NA
+6405,10,COM212,2,3,3,tired,NA
+6405,12,COM212,3,3,3,nope,NA
+6405,13,COM212,3,2,3,nope,NA
+6405,14,COM212,3,3,3,nope,NA
+6405,17,COM212,2,3,3,nope,NA
+6405,18,COM212,2,3,3,nope,NA
+6405,19,COM212,2,1,3,nope,NA
+6405,20,COM212,3,3,3,nope,NA
+6405,21,COM212,3,0,3,nope,NA
+6405,22,COM212,3,2,3,nope,NA
+6405,23,COM212,3,4,3,nope,NA
+6405,24,COM212,3,3,3,nope,NA
+6405,25,COM212,3,4,4,nope,NA
+6406,5,COM212,4.5,3,4,I would like it if all the content in the textbooks be covered in class as the text itself can be rather verbose. I understand that time constraints might prevent this,"I would appreciate if all textbook content could be covered in class, as the text is verbose and harder to follow on my own."
+6406,5,COM214,4,4,3,Often the readings about the content of the class are due multiple days before the content is covered in class. I'd benefit if the textbook was more of a preview of what would be covered in class as often the textbook is very dense.,"I'd benefit if textbook readings were assigned closer to when the material is covered in class, as the dense readings are currently due several days beforehand."
+6406,7,COM212,3,3,4,nothing right now,NA
+6406,7,COM214,3,4,4,Nothing today,NA
+6406,8,COM212,4,3,4,nothing today,NA
+6406,8,COM214,3,4,3,nothing today,NA
+6406,9,COM212,3,4,3,doing more coding homework to build competency with java,I would benefit from more coding homework to build my competency with Java.
+6406,9,COM214,4,4,4,Issue more projects for assignments instead of reflections. I find applying what I learn more useful.,"I would prefer more project-based assignments instead of reflections, as applying what I learn is more useful for me."
+6406,10,COM212,4,3,3,nothing today,NA
+6406,10,COM214,3,4,4,nothing today,NA
+6406,12,COM212,4,4,4,nothing today,NA
+6406,12,COM214,4,5,4,"I definitely find the PA assignments useful not just for review but for learning, if smaller similar assignments could be sprinkled throughout the semester that would be great","I find the PA assignments very helpful for learning; having smaller, similar assignments throughout the semester would be beneficial."
+6406,13,COM212,5,4,4,NA,NA
+6406,13,COM214,4,4,4,nothing today,NA
+6406,14,COM212,4,4,4,NA,NA
+6406,14,COM214,3,3,4,NA,NA
+6406,15,COM214,3,4,4,nothing today,NA
+6406,16,COM214,4,4,4,nothing today,NA
+6406,17,COM212,4,5,5,NA,NA
+6406,17,COM214,3,3,4,NA,NA
+6406,18,COM212,4,3,5,NA,NA
+6406,18,COM214,3,4,4,NA,NA
+6406,19,COM212,4,4,4,NA,NA
+6406,19,COM214,3,3,4,NA,NA
+6406,20,COM212,3,3,3,NA,NA
+6406,20,COM214,3,5,4,NA,NA
+6406,21,COM212,4,4,4,NA,NA
+6406,21,COM214,2,4,3,NA,NA
+6406,22,COM212,4,4,4,NA,NA
+6406,22,COM214,2,4,2,"I am generally feeling I don't understand a lot of the components of ruby on rails, coming the project time. Furthermore, I don't know what questions to ask if I were to come to office hours",I am struggling to understand many components of Ruby on Rails and feel unsure about what questions to ask during office hours.
+6406,23,COM212,3,3,4,NA,NA
+6406,24,COM212,3,4,4,NA,NA
+6406,24,COM214,2,4,4,NA,NA
+6406,25,COM212,3,3,4,NA,NA
+6406,25,COM214,3,4,2,NA,NA
+6438,5,COM212,3,3,3.5,not as of yet,NA
+6438,7,COM212,0,1,2,the ta is kind of harsh,"The TA's demeanor feels harsh, which affects my comfort in the course."
+6438,8,COM212,3,4,4,All good right now,NA
+6438,9,COM212,2,0,2,im scared for the midterm sir,I'm feeling anxious about the upcoming midterm.
+6438,12,COM212,3,0,2,no,NA
+6438,13,COM212,3,3,3,no,NA
+6438,17,COM212,3,3,3,no,NA
+6438,18,COM212,3,0,2,NA,NA
+6438,22,COM212,2,4,4,no,NA
+6438,23,COM212,4,4,5,thank you for letting us have class outide,NA
+6438,24,COM212,3,3,5,no,NA
+6438,25,COM212,4,4,4,no,NA
+6471,7,COM214,3,3,4,NA,NA
+6471,8,COM214,3,2,4,NA,NA
+6471,9,COM214,5,2,3,NA,NA
+6471,13,COM214,2,3,4,NA,NA
+6471,15,COM214,3,1,4,NA,NA
+6471,16,COM214,3,2,4,NA,NA
+6471,17,COM214,3,0,4,NA,NA
+6471,18,COM214,3,1,4,NA,NA
+6471,20,COM214,4,4,4,NA,NA
+6471,22,COM214,4,4,4,NA,NA
+6471,24,COM214,4,3,4,NA,NA
+6471,26,COM214,4,0,5,NA,NA
+6504,5,COM214,4,3,3,"I am a bit overwhelmed by the volume of content for this course- I think mastering HTML, CSS, Javascript, and Ruby in the span of 4 months won't be easy","I'm feeling overwhelmed by the amount of content; mastering HTML, CSS, JavaScript, and Ruby in four months seems challenging."
+6504,7,COM214,3,3,4,No,NA
+6504,9,COM214,4,1,4,NA,NA
+6504,10,COM214,4,4,4,NA,NA
+6504,12,COM214,3,3,3,NA,NA
+6504,13,COM214,3,4,4,NA,NA
+6504,14,COM214,3,3,4,NA,NA
+6504,15,COM214,3,3,4,NA,NA
+6504,16,COM214,3,4,3,NA,NA
+6504,17,COM214,4,4,4,NA,NA
+6504,18,COM214,3,3,3,NA,NA
+6504,19,COM214,4,4,3,NA,NA
+6504,20,COM214,3,4,3,NA,NA
+6504,22,COM214,3,3,4,NA,NA
+6504,24,COM214,3,4,4,NA,NA
+6537,5,COM212,3,4,3,NA,NA
+6537,7,COM212,4,3,4,NA,NA
+6537,8,COM212,4,3,4,NA,NA
+6537,9,COM212,2,3,3,NA,NA
+6537,11,COM212,4,4,4,NA,NA
+6537,12,COM212,4,4,4,NA,NA
+6537,13,COM212,5,4,4,NA,NA
+6537,17,COM212,4,3,3,NA,NA
+6537,25,COM212,4,3,4,NA,NA
+6570,5,COM212,4,5,4,NA,NA
+6570,7,COM212,3,4,3,NA,NA
+6570,8,COM212,4,3,3,NA,NA
+6570,9,COM212,3,4,3,NA,NA
+6570,10,COM212,3,3,4,NA,NA
+6570,12,COM212,4,3,3,NA,NA
+6570,13,COM212,4,4,4,NA,NA
+6570,17,COM212,4,4,4,I think we should implement more in class coding practices and homework. It's been difficult to remember the Java syntax.,I would benefit from more in-class coding practice and homework to help me remember Java syntax.
+6570,18,COM212,3,3,3,NA,NA
+6570,19,COM212,4,4,4,NA,NA
+6570,20,COM212,3,4,4,NA,NA
+6570,21,COM212,3,4,4,NA,NA
+6570,22,COM212,4,5,4,NA,NA
+6570,23,COM212,4,4,4,NA,NA
+6570,24,COM212,4,4,4,NA,NA
+6570,25,COM212,3,4,4,NA,NA
+6571,5,COM212,2,3,3,NA,NA
+6571,9,COM212,0,0,2,I don't feel like I am really learning or fully understanding java but I will try harder,I am struggling to fully understand Java and would benefit from additional support to improve my learning.
+6571,10,COM212,3,5,3,NA,NA
+6571,12,COM212,4,4,3,NA,NA
+6571,14,COM212,4,4,4,NA,NA
+6571,17,COM212,1,0,1,NA,NA
+6571,18,COM212,3,4,3,NA,NA
+6571,22,COM212,4,4,4,NA,NA
+6571,25,COM212,4,4,4,NA,NA
+6573,7,COM212,2.5,4.2,3,I feel kind of left behind being sick for so long and stressed out catching up on all of my work,I have fallen behind due to illness and am stressed about catching up on all my work.
+6573,9,COM212,3,4,2.5,I'm very stressed out with the season starting back up,"I'm feeling very stressed due to the sports season starting, which may affect my ability to succeed in this course."
+6573,10,COM212,3.5,4.9,2.9,"I'm very nervous that I'm not up to speed with the class material. Even though I know I am, I don't feel very confident","I feel nervous and lack confidence about keeping up with the class material, even though I know I'm capable."
+6573,11,COM212,3.2,3,3.3,nope,NA
+6573,12,COM212,3,3,3,NA,NA
+6573,17,COM212,2.3,3,2.1,im nervous for the midterm,I'm nervous about the upcoming midterm.
+6573,18,COM212,3,2,2.2,i have mono,"I have mono, which may affect my participation and ability to keep up with coursework."
+6573,22,COM212,3,2.3,3,I'm still not feeling great- but I had to come back from my medical leave or the school would have unenrolled me :/,"I'm returning from medical leave but still not feeling well, which may affect my ability to succeed in the course."
+6573,25,COM212,3,4.5,4,the weather has been beautiful,NA
+6574,9,COM212,3,3,2,NA,NA
+6574,25,COM212,5,5,5,NA,NA
+6575,5,COM212,4,0,3,I would like to go over more Java in class.,I would like to spend more time covering Java in class.
+6575,5,COM214,4,1,3,i really wish that we could choose our group assignment partners for future assignments,I would like to be able to choose my group assignment partners for future assignments.
+6575,7,COM212,4,1,4,hard day but im glad to be here in class,NA
+6575,7,COM214,5,0,4,this is a really hard day for me today but i really love learning having a hard day outside of class glad i can be sitting here,"I'm having a hard day outside of class, but I'm glad to be here and appreciate the opportunity to learn."
+6575,8,COM212,4,0,4,happy to be here it's hard but im happy to work,NA
+6575,8,COM214,3,0,4,happy to be in class,NA
+6575,9,COM212,5,3,5,very glad to be in this class today,NA
+6575,9,COM214,4,0,4,hard few days but i am very grateful to be here in class today,NA
+6575,10,COM212,4,2,4,i am grateful to be in class today,NA
+6575,12,COM212,4,4,4,i am excited to be here today,NA
+6575,12,COM214,4,4,4,i am happy to be here today,NA
+6575,13,COM212,4,4,4,i am excited to be here but i do feel a little sick today,NA
+6575,13,COM214,4,4,4,very lucky to be here,NA
+6575,14,COM212,4,4,5,let's do some more hands on stuff in class!,I would like more hands-on activities in class.
+6575,14,COM214,4,4,4,i am not feeling great today so i will need to rest a little,NA
+6575,15,COM214,5,3,5,I think that we should do more hands on activities during class like writing ruby on rails together,"I would like to do more hands-on activities in class, such as writing Ruby on Rails together."
+6575,16,COM214,4,3,5,excited to be here in class,NA
+6575,17,COM212,5,5,5,i am doing so well,NA
+6575,17,COM214,4,5,5,i am excited to be here today,NA
+6575,18,COM214,4,5,5,very happy to be here,NA
+6575,19,COM212,4,5,4,NA,NA
+6575,20,COM214,4,5,5,"glad to be here in class today, hoping that my toy app can work",NA
+6575,21,COM212,5,3,5,NA,NA
+6575,22,COM212,5,4,5,NA,NA
+6575,22,COM214,5,0,5,it was not possible to install the gems i spent all of yesterday working on it,I was unable to install the required gems despite spending all of yesterday trying.
+6575,23,COM212,5,5,5,i love being outside today,NA
+6575,24,COM214,5,1,5,NA,NA
+6575,25,COM212,5,4,5,NA,NA
+6575,25,COM214,5,4,5,NA,NA
+6575,26,COM214,5,5,5,NA,NA
+6577,5,COM212,4,5,3.5,More coding in class. Looking at and reading slides is difficult to focus on sometimes.,"I would benefit from more coding activities in class, as just reading slides makes it hard for me to focus."
+6577,7,COM212,4,5,5,NA,NA
+6577,9,COM212,4.5,5,3.5,"Nervous for the midterm, do not think i will be prepared. think writing it out on paper is whole different ball game.","I'm nervous about the midterm and feel unprepared, especially since writing it on paper is very different for me."
+6577,12,COM212,3,3,2,Yes I would like to get in contact with a student tutor for tutoring sessions. How do I do this?,I would like help connecting with a student tutor for tutoring sessions.
+6580,5,COM214,2.5,2,3,NA,NA
+6580,7,COM214,3,1,1,NA,NA
+6580,8,COM214,4,4,3,Having a review day,I'd appreciate having a review day to help me succeed in the course.
+6580,9,COM214,4,5,3,NA,NA
+6580,10,COM214,4,5,4,NA,NA
+6580,12,COM214,5,3,4,NA,NA
+6580,13,COM214,4,3,5,NA,NA
+6580,14,COM214,4,4,4,NA,NA
+6580,15,COM214,4,4,4,NA,NA
+6580,16,COM214,4,5,5,NA,NA
+6580,17,COM214,5,5,5,NA,NA
+6580,19,COM214,4,4,5,NA,NA
+6580,20,COM214,5,5,5,NA,NA
+6580,21,COM214,5,5,5,NA,NA
+6580,24,COM214,5,4,5,NA,NA
+6580,25,COM214,5,5,5,NA,NA
+6581,7,COM214,3,3,4,NA,NA
+6581,17,COM214,4,5,4,NA,NA
+6583,5,COM214,0,2,5,"I wish we did not have to do the writeups for each class. It adds to the workload we already have and tends to produce stress as it is due twice a week. The readings are interesting and I love the class, I just find the writeups cause stress and more pressure that does not need to exist in this class.",I find the twice-weekly writeups add unnecessary stress and workload; removing them would make the course more manageable.
+6583,7,COM214,0,0,4,Just had a particularly bad day yesterday where I was unable to work. Hopefully this is a one off,"I had a difficult day recently that prevented me from working, but I hope it was an isolated incident."
+6583,8,COM214,2,4,4,Got confused and did the wrong reading,I got confused about the reading assignment and completed the wrong one.
+6583,13,COM214,2,1,4,"Had a long weekend, got a lot on my plate with midterms so I am not very prepared for this class.",I'm feeling unprepared for this class due to a busy schedule and multiple midterms.
+6583,14,COM214,0,2,4,Midterms have been ruff and I have fallen behind on reading,I have struggled with midterms and fallen behind on reading.
+6583,15,COM214,4,3,4,NA,NA
+6583,16,COM214,3,4,5,NA,NA
+6583,17,COM214,4,2,5,NA,NA
+6583,18,COM214,4,2,5,NA,NA
+6583,19,COM214,3,3,4,NA,NA
+6583,20,COM214,3,3,4,NA,NA
+6583,21,COM214,1,2,3,NA,NA
+6583,24,COM214,2,2,3,NA,NA
+6583,25,COM214,2,3,3,NA,NA
+6583,26,COM214,3,3,3,NA,NA
+6588,5,COM212,5,5,5,No,NA
+6588,7,COM212,5,5,5,no,NA
+6588,8,COM212,5,5,5,NA,NA
+6588,9,COM212,5,5,5,NA,NA
+6588,10,COM212,5,5,5,NA,NA
+6588,18,COM212,5,5,5,NA,NA
+6588,19,COM212,5,5,5,NA,NA
+6588,20,COM212,0,0,0,NA,NA
+6588,21,COM212,4,2,4,NA,NA
+6588,22,COM212,5,5,5,NA,NA
+6588,23,COM212,5,5,5,NA,NA
+6588,24,COM212,4,5,5,NA,NA
+6588,25,COM212,5,5,5,NA,NA
+6592,9,COM214,4,4,4,more sources maybe on html learning,I would benefit from having more sources or materials on HTML learning.
+6592,10,COM214,3,2,3,NA,NA
+6592,13,COM214,3,4,3,NA,NA
+6592,15,COM214,3,3,4,NA,NA
+6592,16,COM214,3,4,4,NA,NA
+6592,17,COM214,3,3,4,NA,NA
+6592,18,COM214,3,3,3,NA,NA
+6592,21,COM214,3,3,3,NA,NA
+6592,24,COM214,2,1,3,NA,NA
+6592,25,COM214,2,1,3,NA,NA
+6594,5,COM212,2,3,3,allow for more time to ask questions,I would benefit from having more time to ask questions during class.
+6594,7,COM212,2,5,3,hope you had a great snowday,NA
+6594,8,COM212,1,1,2,im super tired from all the work this week and being slightly sick please take it easy on me today,"I'm feeling tired and slightly sick from a heavy workload this week, so I'd appreciate it if you could go easy on me today."
+6594,9,COM212,3,3,3,thanks for being such a nice and forgiving processor,NA
+6594,10,COM212,4,4,3,can you talk about some of the parts in pa2,I would like you to discuss some of the parts in PA2 for better understanding.
+6594,12,COM212,2,1,3,i am having an output error with my HW4,I am experiencing an output error with my HW4 assignment.
+6594,13,COM212,3,2,3,very tired,I am very tired and may need support with managing fatigue during the course.
+6594,17,COM212,3,2,2,super tired :(,NA
+6594,20,COM212,3,2,2,hope you have a wonderful day,NA
+6594,21,COM212,3,3,3,Hi :),NA
+6594,22,COM212,4,5,2,we need to go outside it is so nice outsid,NA
+6594,24,COM212,3,4,3,can we go outside today,NA
+6595,5,COM212,5,4,5,NA,NA
+6595,7,COM212,5,4,5,NA,NA
+6595,8,COM212,4.5,2.5,5,NA,NA
+6595,10,COM212,4,4,4,I was sick last class but I'm good now,NA
+6595,11,COM212,2,2,4,Not getting much sleep lately which is impacting my ability to get homework done,I'm struggling to complete homework due to lack of sleep recently.
+6595,13,COM212,2.5,2.7,4,I will catch up on work over spring break,NA
+6595,17,COM212,3,2,4,NA,NA
+6596,5,COM212,0,5,3,we need to go over the basics more,I would benefit from reviewing the basics more thoroughly in class.
+6596,8,COM212,4,5,2,nope,NA
+6596,9,COM212,3,2,2,please slow down,I would be more comfortable if the pace of the class was slower.
+6596,10,COM212,4,5,2,slow down,I would be more comfortable if you slowed down during class.
+6596,12,COM212,4,5,0,NA,NA
+6596,23,COM212,5,5,5,class is outside ... amazing!,NA
+6596,25,COM212,5,5,3,no,NA
+6597,5,COM214,4,3,4,NA,NA
+6597,7,COM214,3,3,4,I think it would help if we had more prep in class relating to the PA assignments I always feel a little bit confused or very stressed for them,"I would feel more comfortable if we had more in-class preparation for the PA assignments, as I often feel confused or stressed about them."
+6597,8,COM214,3,5,4,NA,NA
+6597,9,COM214,3,1,4,NA,NA
+6597,11,COM214,3,2,4,NA,NA
+6597,12,COM214,3,3,3,NA,NA
+6597,15,COM214,3,3,3,NA,NA
+6597,17,COM214,4,3,3,NA,NA
+6597,18,COM214,3,2,2,NA,NA
+6597,20,COM214,3,0,2,NA,NA
+6597,21,COM214,4,2,2,NA,NA
+6597,22,COM214,4,3,2,NA,NA
+6598,5,COM212,5,5,4,I'm hungry,NA
+6598,5,COM214,4,4,5,NA,NA
+6598,8,COM212,5,5,5,no,NA
+6598,8,COM214,5,5,5,no,NA
+6598,9,COM212,5,5,5,My laptop got a virus I'm stressed,"I'm stressed because my laptop has a virus, which may affect my ability to complete coursework."
+6598,9,COM214,5,5,5,NA,NA
+6598,10,COM212,5,4,5,My friend left college. I'm sad,NA
+6598,10,COM214,5,5,5,na,NA
+6598,12,COM212,5,5,5,ALL SET,NA
+6598,12,COM214,5,5,5,NA,NA
+6598,13,COM212,5,5,5,ALL SET,NA
+6598,13,COM214,5,5,5,NA,NA
+6598,14,COM214,5,5,5,NA,NA
+6598,15,COM214,5,5,5,NA,NA
+6598,16,COM214,5,5,5,no,NA
+6598,17,COM212,5,5,5,no,NA
+6598,17,COM214,5,5,5,NA,NA
+6598,18,COM212,5,5,5,no,NA
+6598,18,COM214,5,5,5,I love you professor,NA
+6598,19,COM212,1,1,1,NA,NA
+6598,19,COM214,5,5,5,NA,NA
+6598,20,COM212,5,5,5,5,NA
+6598,20,COM214,5,5,5,no,NA
+6598,21,COM214,5,5,5,NA,NA
+6598,22,COM212,5,5,5,NA,NA
+6598,22,COM214,5,5,5,NA,NA
+6598,23,COM212,5,5,5,NA,NA
+6598,24,COM214,5,5,5,NA,NA
+6598,25,COM212,5,5,5,NA,NA
+6598,25,COM214,4,4,4,NA,NA
+6702,5,COM212,5,3,5,None.,NA
+6702,7,COM212,5,5,5,5,NA
+6702,8,COM212,5,5,5,No.,NA
+6702,9,COM212,5,5,5,None.,NA
+6702,10,COM212,5,5,5,No.,NA
+6702,12,COM212,5,5,5,NA,NA
+6702,13,COM212,5,5,5,NA,NA
+6702,14,COM212,5,5,5,NA,NA
+6702,17,COM212,5,5,5,NA,NA
+6702,19,COM212,5,5,5,NA,NA
+6702,20,COM212,5,5,5,NA,NA
+6702,21,COM212,5,5,5,NA,NA
+6702,22,COM212,5,5,5,NA,NA
+6702,23,COM212,5,5,5,NA,NA
+6702,24,COM212,5,5,5,NA,NA
+6702,25,COM212,5,5,5,NA,NA
+6703,7,COM214,4,4,4,none,NA
+6703,9,COM214,4,4,4,non3,NA
+6703,12,COM214,4,3,4,none,NA
+6703,14,COM214,3,3,3,NA,NA
+6703,15,COM214,4,3,3,none,NA
+6703,16,COM214,4,3,3,none,NA
+6703,18,COM214,2,3,3,NA,NA
+6703,19,COM214,3,3,3,NA,NA
+6703,20,COM214,3,3,3,NA,NA
+6703,21,COM214,4,2,3,NA,NA
+6703,22,COM214,3,3,3,NA,NA
+6703,24,COM214,3,3,3,NA,NA
+6703,25,COM214,3,3,3,NA,NA
+6703,26,COM214,3,3,3,NA,NA
+6706,5,COM214,4,4,4,NA,NA
+6706,7,COM214,4,5,4,NA,NA
+6706,8,COM214,4.5,5,4,NA,NA
+6706,9,COM214,4,4,4,NA,NA
+6706,10,COM214,4,3.5,4,NA,NA
+6706,12,COM214,3,4.5,4,NA,NA
+6706,13,COM214,3,4,4,NA,NA
+6706,14,COM214,3.5,4,4,NA,NA
+6706,15,COM214,3,4,4,NA,NA
+6706,16,COM214,4,4,4,NA,NA
+6706,17,COM214,4,4,4,NA,NA
+6706,18,COM214,4,4,4,NA,NA
+6706,19,COM214,4,4,4,NA,NA
+6706,20,COM214,4,4,4,NA,NA
+6706,21,COM214,4,4,3,NA,NA
+6706,22,COM214,4,4,4,NA,NA
+6706,25,COM214,4,4,4,NA,NA
+6706,26,COM214,4,4,4,NA,NA
+6707,7,COM214,4.05,4.5,4,NA,NA
+6707,8,COM214,4.1,4.1,4.1,maybe a little more class practice,I would benefit from a little more practice during class.
+6707,9,COM214,4.1,4.1,4.1,NA,NA
+6707,10,COM214,4.1,4.1,4.1,NA,NA
+6707,13,COM214,3.5,4.5,3.5,NA,NA
+6707,14,COM214,3.7,3,3.5,Can you go over the thing you did at the end of class last time where you explained how you saved the changes you made in the Ruby code to your file?,I'd like a review of how you saved changes to the Ruby code at the end of last class.
+6707,16,COM214,4.5,4,4,NA,NA
+6707,17,COM214,4,4,4,NA,NA
+6707,18,COM214,4,4,4,NA,NA
+6707,19,COM214,4,4,4,NA,NA
+6707,20,COM214,3,4,3,NA,NA
+6707,21,COM214,4,4,4,NA,NA
+6707,22,COM214,4,4,4,NA,NA
+6707,24,COM214,4,4,4,NA,NA
+6707,25,COM214,4,4,4,NA,NA
+6708,5,COM214,4,5,3.4,"Nothing, I think the textbook is a good resource.",NA
+6708,7,COM214,3,2,4,"No, I'm excited to code more!",NA
+6708,8,COM214,4,3,3,NA,NA
+6708,9,COM214,4,4,3,Maybe explore bootstrap more,I would like to explore Bootstrap more in the course.
+6708,12,COM214,4,4,4,NA,NA
+6708,13,COM214,3,3,4,NA,NA
+6708,14,COM214,4,3,4,NA,NA
+6708,15,COM214,4,3,4,NA,NA
+6708,17,COM214,3,4,4,NA,NA
+6708,18,COM214,4,4,3,NA,NA
+6708,19,COM214,4,4,3,NA,NA
+6708,20,COM214,4,3,3,NA,NA
+6708,21,COM214,4,3,4,NA,NA
+6708,22,COM214,4,3,4,NA,NA
+6708,24,COM214,4,3,4,NA,NA
+6708,25,COM214,3.96,2,4,NA,NA
+6708,26,COM214,4,5,4,NA,NA
+6709,5,COM214,3,4,4,nothing so far that I have encountered,NA
+6709,7,COM214,3,4,4,nothing right now,NA
+6709,8,COM214,3,2,4,na,NA
+6709,9,COM214,2,2,3,no,NA
+6709,12,COM214,4,3,3,na,NA
+6709,13,COM214,2,3,3,na,NA
+6709,14,COM214,2,2,3,no,NA
+6709,15,COM214,3,3,3,NA,NA
+6709,16,COM214,3,3,3,na,NA
+6709,17,COM214,3,3,3,NA,NA
+6709,18,COM214,2,2,3,NA,NA
+6709,20,COM214,3,3,3,NA,NA
+6709,22,COM214,3,3,3,NA,NA
+6709,24,COM214,3,3,3,NA,NA
+6709,25,COM214,3,3,3,NA,NA
+6711,5,COM214,4,3,4,NA,NA
+6711,7,COM214,4,3,4,NA,NA
+6711,9,COM214,4,3,3,NA,NA
+6711,12,COM214,3,4,4,NA,NA
+6711,13,COM214,3,3,3,NA,NA
+6711,14,COM214,4,5,3,NA,NA
+6711,15,COM214,3,2,4,NA,NA
+6711,16,COM214,4,3,4,NA,NA
+6711,17,COM214,4,3,4,NA,NA
+6711,19,COM214,2,3,4,NA,NA
+6711,20,COM214,3,4,4,NA,NA
+6711,21,COM214,3,3,3,NA,NA
+6711,24,COM214,3,2,3,NA,NA
+6712,5,COM214,3,3,3,let us pick our groups,I would like to be able to choose my own group members.
+6712,7,COM214,3.5,3.5,3.5,less reading,I would be more comfortable with less reading assigned.
+6712,8,COM214,3.5,4,3,nah,NA
+6712,9,COM214,3,3,3,group projects,I would appreciate opportunities for group projects in this course.
+6712,11,COM214,3,3,3,3,NA
+6712,13,COM214,3,3,3,NA,NA
+6712,14,COM214,3,3,3,less work,I would be more comfortable with a lighter workload.
+6712,15,COM214,3,3,3,3,NA
+6713,5,COM214,3,5,4,NA,NA
+6713,9,COM214,3,5,4,NA,NA
+6713,11,COM214,4,3,3,NA,NA
+6713,12,COM214,3,4,3,NA,NA
+6713,13,COM214,2,3,3,NA,NA
+6713,14,COM214,3,2,4,NA,NA
+6713,15,COM214,4,4,4,NA,NA
+6713,18,COM214,3,3,3,NA,NA
+6713,19,COM214,4,3,3,NA,NA
+6713,25,COM214,4,4,4,NA,NA
+6714,14,COM214,3,3,3,3,NA
+6714,16,COM214,3,4,3,I feel ok at where I am at right now,NA
+6714,18,COM214,3,3,3,NA,NA
+6714,19,COM214,3,3,3,3,NA
+6714,21,COM214,3,3,3,.,NA
+6714,22,COM214,3,4,3,3,NA
+6715,7,COM214,3,3,2.5,"The readings are super interesting, but I struggle to fill 500 words. It's difficult to find the motivation to keep reading knowing that I'll have to embellish some of what I'm writing simply because I can't find the content to fill the word count. The reflections are vital to tracking our understanding, but I think a lower minimum word count would be beneficial.",I find it challenging to meet the 500-word minimum for reflections and would benefit from a lower word count requirement to better reflect my understanding without unnecessary embellishment.
+6715,9,COM214,3,3,3,pls lower min word count for reflections,I would be more comfortable if the minimum word count for reflections was lowered.
+6715,13,COM214,2,2,4,no,NA
+6715,16,COM214,2,3,3,NA,NA
+6715,25,COM214,2,5,5,no,NA
+6716,5,COM214,4,4,4,NA,NA
+6716,7,COM214,4,4,4,None.,NA
+6716,8,COM214,4,5,4,None.,NA
+6716,10,COM214,4,5,4,None.,NA
+6716,12,COM214,4,4,4,NA,NA
+6716,13,COM214,4,4,4,None right now.,NA
+6716,14,COM214,4,4,4,NA,NA
+6716,15,COM214,4,4,4,NA,NA
+6716,16,COM214,4,4,4,NA,NA
+6716,17,COM214,4,4,4,NA,NA
+6716,18,COM214,4,4,4,NA,NA
+6716,19,COM214,4,4,4,NA,NA
+6716,20,COM214,4,4,4,NA,NA
+6716,21,COM214,4,4,4,NA,NA
+6716,22,COM214,4,4,4,NA,NA
+6716,24,COM214,4,5,4,NA,NA
+6716,25,COM214,5,4,5,NA,NA
+6716,26,COM214,4,4,4,NA,NA
+6717,5,COM214,4,3,2,NA,NA
+6717,7,COM214,4,3,2,NA,NA
+6717,8,COM214,5,4,3,NA,NA
+6717,9,COM214,3,1,3,NA,NA
+6717,10,COM214,4,2,3,NA,NA
+6717,12,COM214,2,4,3,NA,NA
+6717,13,COM214,1,2,2,NA,NA
+6717,14,COM214,3,3,2,NA,NA
+6717,15,COM214,3,3,3,NA,NA
+6717,16,COM214,2,4,3,NA,NA
+6717,17,COM214,3,3,3,NA,NA
+6717,18,COM214,2,2,3,NA,NA
+6717,19,COM214,3,3,3,NA,NA
+6717,20,COM214,3,4,3,NA,NA
+6717,21,COM214,3,3,3,NA,NA
+6717,22,COM214,2,3,3,NA,NA
+6717,24,COM214,3,4,3,NA,NA
+6717,25,COM214,3,4,3,NA,NA
+6717,26,COM214,4,4,3,NA,NA
+6718,5,COM214,4,4,3,I find the readings very interesting and helpful during homework but I get discouraged by the forum posts. I find that 500 words is much longer than can be easily written about our homework assignments and struggle to reach the desired lenght of post despite having read and absorbed the homework content.,"I find the 500-word forum post requirement challenging and discouraging, as it's difficult to write that much about the homework even though I understand and engage with the material."
+6718,7,COM214,2,3,3,NA,NA
+6718,8,COM214,3,3,3,NA,NA
+6718,9,COM214,3,3,3,NA,NA
+6718,10,COM214,3,3,3,NA,NA
+6718,13,COM214,3,3,3,NA,NA
+6718,14,COM214,3,3,3,NA,NA
+6718,15,COM214,3,3,3,NA,NA
+6718,16,COM214,3,3,3,NA,NA
+6718,18,COM214,2,3,3,NA,NA
+6718,20,COM214,3,3,3,NA,NA
+6718,22,COM214,3,3,3,NA,NA
+6718,25,COM214,3,3,3,NA,NA
