@@ -280,6 +280,126 @@ g2
 
 
 ```{r}
+library(readr)
+
+responses <- read_csv("COM212_question4_file.csv_openai_processed.csv")
+
+scores <- student_wide
+
+joined_data <- scores %>%
+  left_join(responses %>% 
+              select(student_id, class_number, course, question_response, summary),
+            by = c("student_id", "class_number", "course"))
+
+
+scores_clean <- scores %>%
+  mutate(
+    Q1 = sapply(Q1, function(x) x[[1]]),
+    Q2 = sapply(Q2, function(x) x[[1]]),
+    Q3 = sapply(Q3, function(x) x[[1]])
+  )
+
+joined_data <- scores_clean %>%
+  left_join(responses %>%
+              select(student_id, class_number, course, question_response, summary),
+            by = c("student_id", "class_number", "course"))
+
+write_csv(joined_data, "joined_output.csv")
+
+
+```
+
+
+
+
+```{r}
+joined_data_212 <- joined_data %>% filter(course=="COM212")
+
+joined_data_214 <- joined_data %>% filter(course=="COM214")
+
+```
+
+
+
+
+```{r}
+library(readr)
+
+responses <- joined_data_212  
+grades <- read_csv("course_grades_212.csv") 
+
+merged_data <- responses %>%
+  left_join(grades, by = "student_id")
+
+print(merged_data)
+write_csv(merged_data, "joined_data_212_grades.csv")
+
+```
+
+
+
+
+```{r}
+comfort_preparedness_212 <- lm(Q3 ~ Q1, data = joined_data_212)
+
+summary(comfort_preparedness_212)
+
+comfort_preparedness_214 <- lm(Q3 ~ Q1, data = joined_data_214)
+
+summary(comfort_preparedness_214)
+```
+
+
+
+
+
+```{r}
+
+library(openxlsx)
+library(dplyr)
+
+df <- read.csv("joined_data_212_grades.csv", stringsAsFactors = FALSE)
+
+df <- df %>%
+  mutate(
+    question_response = na_if(question_response, "NA"),
+    summary = na_if(summary, "NA")
+  )
+
+student_summary <- df %>%
+  group_by(student_id) %>%
+  summarise(
+    Student_Name = first(`Student.Name`),
+    Course_Grade = first(`Course.Grade`),
+    avg_Q1 = mean(Q1, na.rm = TRUE),
+    avg_Q2 = mean(Q2, na.rm = TRUE),
+    avg_Q3 = mean(Q3, na.rm = TRUE),
+    question_response_NA_count = sum(is.na(question_response)),
+    summary_NA_count = sum(is.na(summary)),
+    total_responses = n() 
+  ) %>%
+  select(
+    student_id,
+    Student_Name,
+    Course_Grade,
+    avg_Q1,
+    avg_Q2,
+    avg_Q3,
+    question_response_NA_count,
+    summary_NA_count,
+    total_responses
+  )
+
+wb <- createWorkbook()
+
+for (i in 1:nrow(student_summary)) {
+  student_data <- student_summary[i, ]
+  sheet_name <- paste0("Student_", student_data$student_id)
+  addWorksheet(wb, sheet_name)
+  writeData(wb, sheet = sheet_name, x = student_data)
+}
+
+saveWorkbook(wb, "student_feedback_summary.xlsx", overwrite = TRUE)
 
 ```
 
@@ -288,61 +408,56 @@ g2
 
 ```{r}
 
-```
+library(openxlsx)
+library(dplyr)
 
+df <- read.csv("joined_data_214_grades.csv", stringsAsFactors = FALSE)
 
+df <- df %>%
+  mutate(
+    question_response = na_if(question_response, "NA"),
+    summary = na_if(summary, "NA")
+  )
 
+df_unique <- df %>%
+  group_by(student_id, class_number) %>%
+  slice(1) %>%
+  ungroup()
 
-```{r}
+student_summary <- df_unique %>%
+  group_by(student_id) %>%
+  summarise(
+    Student_Name = first(`Student.Name`),
+    Course_Grade = first(`Course.Grade`),
+    avg_Q1 = mean(Q1, na.rm = TRUE),
+    avg_Q2 = mean(Q2, na.rm = TRUE),
+    avg_Q3 = mean(Q3, na.rm = TRUE),
+    question_response_NA_count = sum(is.na(question_response)),
+    summary_NA_count = sum(is.na(summary)),
+    total_responses = n()  
+  ) %>%
+  select(
+    student_id,
+    Student_Name,
+    Course_Grade,
+    avg_Q1,
+    avg_Q2,
+    avg_Q3,
+    question_response_NA_count,
+    summary_NA_count,
+    total_responses
+  )
 
-```
+wb <- createWorkbook()
 
+for (i in 1:nrow(student_summary)) {
+  student_data <- student_summary[i, ]
+  sheet_name <- paste0("Student_", student_data$student_id)
+  addWorksheet(wb, sheet_name)
+  writeData(wb, sheet = sheet_name, x = student_data)
+}
 
-
-
-```{r}
-
-```
-
-
-
-
-```{r}
-
-```
-
-
-
-
-```{r}
-
-```
-
-
-
-
-```{r}
-
-```
-
-
-
-
-```{r}
-
-```
-
-
-
-
-```{r}
-
-```
-
-
-
-
-```{r}
+saveWorkbook(wb, "214_average_summary.xlsx", overwrite = TRUE)
 
 ```
 
@@ -351,6 +466,47 @@ g2
 
 ```{r}
 
+library(dplyr)
+
+df <- read.csv("joined_data_212_grades.csv", stringsAsFactors = FALSE)
+
+df <- df %>%
+  mutate(
+    question_response = na_if(question_response, "NA"),
+    summary = na_if(summary, "NA")
+  )
+
+df_unique <- df %>%
+  group_by(student_id, class_number) %>%
+  slice(1) %>%
+  ungroup()
+
+student_summary <- df_unique %>%
+  group_by(student_id) %>%
+  summarise(
+    Student_Name = first(`Student.Name`),
+    Course_Grade = first(`Course.Grade`),
+    avg_Q1 = mean(Q1, na.rm = TRUE),
+    avg_Q2 = mean(Q2, na.rm = TRUE),
+    avg_Q3 = mean(Q3, na.rm = TRUE),
+    question_response_NA_count = sum(is.na(question_response)),
+    summary_NA_count = sum(is.na(summary)),
+    total_responses = n()
+  ) %>%
+  select(
+    student_id,
+    Student_Name,
+    Course_Grade,
+    avg_Q1,
+    avg_Q2,
+    avg_Q3,
+    question_response_NA_count,
+    summary_NA_count,
+    total_responses
+  )
+
+write.csv(student_summary, "212_summary_combined.csv", row.names = FALSE)
+
 ```
 
 
@@ -358,12 +514,120 @@ g2
 
 ```{r}
 
+library(openxlsx)
+library(dplyr)
+
+df <- read.csv("joined_data_214_grades.csv", stringsAsFactors = FALSE)
+
+df <- df %>%
+  mutate(
+    question_response = na_if(question_response, "NA"),
+    summary = na_if(summary, "NA")
+  )
+
+df_unique <- df %>%
+  group_by(student_id, class_number) %>%
+  slice(1) %>%
+  ungroup()
+
+df_reordered <- df_unique %>%
+  select(
+    student_id,
+    `Student.Name`,
+    `Course.Grade`,
+    Q1, Q2, Q3,
+    question_response,
+    summary,
+    class_number,
+    course
+  ) %>%
+  rename(
+    Student_Name = `Student.Name`,
+    Course_Grade = `Course.Grade`
+  )
+
+wb <- createWorkbook()
+
+unique_ids <- unique(df_reordered$student_id)
+
+for (id in unique_ids) {
+  student_data <- df_reordered %>%
+    filter(student_id == id)
+  
+  sheet_name <- paste0("Student_", id)
+  addWorksheet(wb, sheet_name)
+  writeData(wb, sheet = sheet_name, x = student_data)
+}
+saveWorkbook(wb, "214_student_raw_responses.xlsx", overwrite = TRUE)
+
 ```
 
 
 
 
 ```{r}
+library(openxlsx)
+library(dplyr)
+library(ggplot2)
+
+file_path <- "212_student_raw_responses.xlsx"
+sheet_names <- getSheetNames(file_path)
+
+expected_cols <- c("student_id", "Student_Name", "Course_Grade",
+                   "Q1", "Q2", "Q3",
+                   "question_response", "summary",
+                   "class_number", "course")
+
+col_types <- list(
+  student_id = "character",
+  Student_Name = "character",
+  Course_Grade = "numeric",
+  Q1 = "numeric",
+  Q2 = "numeric",
+  Q3 = "numeric",
+  question_response = "character",
+  summary = "character",
+  class_number = "numeric",
+  course = "character"
+)
+
+read_and_fix_sheet <- function(sheet) {
+  df <- read.xlsx(file_path, sheet = sheet)
+  
+  missing_cols <- setdiff(expected_cols, colnames(df))
+  for (col in missing_cols) {
+    df[[col]] <- NA
+  }
+
+  df <- df[expected_cols]
+
+  for (col in names(col_types)) {
+    if (col_types[[col]] == "numeric") {
+      df[[col]] <- as.numeric(df[[col]])
+    } else if (col_types[[col]] == "character") {
+      df[[col]] <- as.character(df[[col]])
+    }
+  }
+
+  return(df)
+}
+
+all_students_df <- lapply(sheet_names, read_and_fix_sheet) %>%
+  bind_rows()
+all_students_df <- all_students_df %>%
+  mutate(
+    student_id = as.factor(student_id),
+    class_number = as.numeric(class_number),
+    Q1 = as.numeric(Q1)
+  )
+
+
+average_line <- all_students_df %>%
+  group_by(class_number) %>%
+  summarise(avg_Q1 = mean(Q1, na.rm = TRUE))
+
+
+
 
 ```
 
@@ -371,20 +635,73 @@ g2
 
 
 ```{r}
+average_line <- all_students_df %>%
+  group_by(class_number) %>%
+  summarise(avg_Q1 = mean(Q1, na.rm = TRUE))
 
-```
+g1 <- ggplot(all_students_df, aes(x = class_number, y = Q1, group = student_id, color = student_id)) +
+  geom_line(size = 0.8, alpha = 0.6) +
+  geom_line(data = average_line, aes(x = class_number, y = avg_Q1),
+            inherit.aes = FALSE, color = "black", size = 1.5) + 
+  labs(
+    title = "Mental Preparedness Score 
+    Across Classes for Each Student - COM214",
+    x = "Class Number",
+    y = "Mental Preparedness Score",
+    color = "Student ID"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold", hjust = 0.5),
+    legend.position = "none"
+  )
+
+average_line <- all_students_df %>%
+  group_by(class_number) %>%
+  summarise(avg_Q2 = mean(Q2, na.rm = TRUE))
 
 
+g2 <- ggplot(all_students_df, aes(x = class_number, y = Q2, group = student_id, color = student_id)) +
+  geom_line(size = 0.8, alpha = 0.6) +
+  geom_line(data = average_line, aes(x = class_number, y = avg_Q2),
+            inherit.aes = FALSE, color = "black", size = 1.5) + 
+  labs(
+    title = "Today's Emotional Wellbeing Score 
+    Across Classes for Each Student - COM214",
+    x = "Class Number",
+    y = "Mental Preparedness Score",
+    color = "Student ID"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold", hjust = 0.5),
+    legend.position = "none"
+  )
 
+average_line <- all_students_df %>%
+  group_by(class_number) %>%
+  summarise(avg_Q3 = mean(Q3, na.rm = TRUE))
 
-```{r}
+g3 <- ggplot(all_students_df, aes(x = class_number, y = Q3, group = student_id, color = student_id)) +
+  geom_line(size = 0.8, alpha = 0.6) +
+  geom_line(data = average_line, aes(x = class_number, y = avg_Q3),
+            inherit.aes = FALSE, color = "black", size = 1.5) + 
+  labs(
+    title = "Comfortabality in Course Score 
+    Across Classes for Each Student - COM214",
+    x = "Class Number",
+    y = "Mental Preparedness Score",
+    color = "Student ID"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold", hjust = 0.5),
+    legend.position = "none"
+  )
 
-```
-
-
-
-
-```{r}
+g1
+g2
+g3
 
 ```
 

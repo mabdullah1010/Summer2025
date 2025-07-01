@@ -1,2 +1,5 @@
 .env
-.env
+joined_data_212_grades.csv
+joined_data_214_grades.csv
+joined_output_full.csv
+venv/
