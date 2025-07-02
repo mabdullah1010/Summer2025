@@ -1,0 +1,169 @@
+response_id,course,class_number,student_id,question_number,question_response,clean_q4,emotion_scores,0,anger,disgust,fear,joy,neutral,sadness,surprise
+52,COM212,5,6438,4,not as of yet,,,,,,,,,,
+53,COM212,5,6594,4,allow for more time to ask questions,allow for more time to ask questions,"{'anger': 0.0191, 'disgust': 0.0109, 'fear': 0.0149, 'joy': 0.0053, 'neutral': 0.9117, 'sadness': 0.0174, 'surprise': 0.0207}",,0.0191,0.0109,0.0149,0.0053,0.9117,0.0174,0.0207
+54,COM212,5,6575,4,I would like to go over more Java in class.,I would like to go over more Java in class.,"{'anger': 0.0166, 'disgust': 0.0157, 'fear': 0.0205, 'joy': 0.4844, 'neutral': 0.1434, 'sadness': 0.3092, 'surprise': 0.0101}",,0.0166,0.0157,0.0205,0.4844,0.1434,0.3092,0.0101
+55,COM212,5,6285,4,,,,,,,,,,,
+56,COM212,5,6702,4,None.,,,,,,,,,,
+57,COM212,5,6598,4,I'm hungry,,,,,,,,,,
+58,COM212,5,6596,4,we need to go over the basics more,we need to go over the basics more,"{'anger': 0.0072, 'disgust': 0.0075, 'fear': 0.0079, 'joy': 0.0052, 'neutral': 0.9534, 'sadness': 0.0092, 'surprise': 0.0095}",,0.0072,0.0075,0.0079,0.0052,0.9534,0.0092,0.0095
+59,COM212,5,6406,4,I would like it if all the content in the textbooks be covered in class as the text itself can be rather verbose. I understand that time constraints might prevent this,I would like it if all the content in the textbooks be covered in class as the text itself can be rather verbose. I understand that time constraints might prevent this,"{'anger': 0.0126, 'disgust': 0.0801, 'fear': 0.0042, 'joy': 0.0102, 'neutral': 0.8741, 'sadness': 0.014, 'surprise': 0.0048}",,0.0126,0.0801,0.0042,0.0102,0.8741,0.014,0.0048
+60,COM212,5,6588,4,No,,,,,,,,,,
+61,COM212,5,6577,4,More coding in class. Looking at and reading slides is difficult to focus on sometimes.,More coding in class. Looking at and reading slides is difficult to focus on sometimes.,"{'anger': 0.0401, 'disgust': 0.4183, 'fear': 0.081, 'joy': 0.0023, 'neutral': 0.208, 'sadness': 0.2285, 'surprise': 0.0217}",,0.0401,0.4183,0.081,0.0023,0.208,0.2285,0.0217
+62,COM212,5,6405,4,nope,,,,,,,,,,
+63,COM212,5,6286,4,"I am still quite behind in most of my classes because of the flu and just arriving on campus later than everyone else, I'm hoping that i can have a bit of grace with assignment flexibility in due dates so that i can catch up and be at the same pace as the rest of the class.","I am still quite behind in most of my classes because of the flu and just arriving on campus later than everyone else, I'm hoping that i can have a bit of grace with assignment flexibility in due dates so that i can catch up and be at the same pace as the rest of the class.","{'anger': 0.006, 'disgust': 0.002, 'fear': 0.0083, 'joy': 0.3119, 'neutral': 0.5593, 'sadness': 0.0778, 'surprise': 0.0347}",,0.006,0.002,0.0083,0.3119,0.5593,0.0778,0.0347
+64,COM212,5,6194,4,"I feel like the homework assignments do not reflect the work we do in class, so sitting down to do it and it is unfamiliar is discouraging. The TA sessions are helpful, but it would be nice to have something that I feel prepared to figure out on my own.","I feel like the homework assignments do not reflect the work we do in class, so sitting down to do it and it is unfamiliar is discouraging. The TA sessions are helpful, but it would be nice to have something that I feel prepared to figure out on my own.","{'anger': 0.0041, 'disgust': 0.0276, 'fear': 0.2619, 'joy': 0.2888, 'neutral': 0.3483, 'sadness': 0.057, 'surprise': 0.0123}",,0.0041,0.0276,0.2619,0.2888,0.3483,0.057,0.0123
+110,COM212,7,6406,4,nothing right now,,,,,,,,,,
+111,COM212,7,6702,4,5,,,,,,,,,,
+112,COM212,7,6598,4,,,,,,,,,,,
+113,COM212,7,6438,4,the ta is kind of harsh,,,,,,,,,,
+114,COM212,7,6374,4,,,,,,,,,,,
+115,COM212,7,6286,4,I am still grieving so I might not be operating at 100% these days...,I am still grieving so I might not be operating at 100% these days...,"{'anger': 0.0016, 'disgust': 0.0031, 'fear': 0.0066, 'joy': 0.0023, 'neutral': 0.029, 'sadness': 0.9474, 'surprise': 0.0101}",,0.0016,0.0031,0.0066,0.0023,0.029,0.9474,0.0101
+116,COM212,7,6573,4,I feel kind of left behind being sick for so long and stressed out catching up on all of my work,I feel kind of left behind being sick for so long and stressed out catching up on all of my work,"{'anger': 0.0021, 'disgust': 0.0077, 'fear': 0.0045, 'joy': 0.0015, 'neutral': 0.0159, 'sadness': 0.9658, 'surprise': 0.0024}",,0.0021,0.0077,0.0045,0.0015,0.0159,0.9658,0.0024
+117,COM212,7,6594,4,hope you had a great snowday,,,,,,,,,,
+118,COM212,7,6575,4,hard day but im glad to be here in class,,,,,,,,,,
+119,COM212,7,6588,4,no,,,,,,,,,,
+120,COM212,7,6405,4,nope,,,,,,,,,,
+166,COM212,8,6596,4,nope,,,,,,,,,,
+167,COM212,8,6594,4,im super tired from all the work this week and being slightly sick please take it easy on me today,im super tired from all the work this week and being slightly sick please take it easy on me today,"{'anger': 0.0028, 'disgust': 0.0004, 'fear': 0.0018, 'joy': 0.0054, 'neutral': 0.0063, 'sadness': 0.9784, 'surprise': 0.0049}",,0.0028,0.0004,0.0018,0.0054,0.0063,0.9784,0.0049
+168,COM212,8,6406,4,nothing today,,,,,,,,,,
+169,COM212,8,6702,4,No.,,,,,,,,,,
+170,COM212,8,6374,4,,,,,,,,,,,
+171,COM212,8,6194,4,no,,,,,,,,,,
+172,COM212,8,6573,4,Its a gloomy day & I'm trying very hard to grasp the material in this class but I'm having a hard time.,Its a gloomy day & I'm trying very hard to grasp the material in this class but I'm having a hard time.,"{'anger': 0.0007, 'disgust': 0.0014, 'fear': 0.0007, 'joy': 0.0015, 'neutral': 0.0041, 'sadness': 0.9899, 'surprise': 0.0016}",,0.0007,0.0014,0.0007,0.0015,0.0041,0.9899,0.0016
+173,COM212,8,6438,4,All good right now,,,,,,,,,,
+174,COM212,8,6575,4,happy to be here it's hard but im happy to work,happy to be here it's hard but im happy to work,"{'anger': 0.0017, 'disgust': 0.0003, 'fear': 0.0004, 'joy': 0.9617, 'neutral': 0.0019, 'sadness': 0.0105, 'surprise': 0.0234}",,0.0017,0.0003,0.0004,0.9617,0.0019,0.0105,0.0234
+175,COM212,8,6598,4,no,,,,,,,,,,
+176,COM212,8,6286,4,"I'm struggling alot, but im still trying to show up and put in the most effort i can.","I'm struggling alot, but im still trying to show up and put in the most effort i can.","{'anger': 0.002, 'disgust': 0.0029, 'fear': 0.0483, 'joy': 0.0454, 'neutral': 0.0176, 'sadness': 0.8804, 'surprise': 0.0034}",,0.002,0.0029,0.0483,0.0454,0.0176,0.8804,0.0034
+177,COM212,8,6405,4,nope,,,,,,,,,,
+235,COM212,9,6438,4,im scared for the midterm sir,im scared for the midterm sir,"{'anger': 0.0007, 'disgust': 0.0002, 'fear': 0.9946, 'joy': 0.0008, 'neutral': 0.0006, 'sadness': 0.0024, 'surprise': 0.0008}",,0.0007,0.0002,0.9946,0.0008,0.0006,0.0024,0.0008
+236,COM212,9,6596,4,please slow down,please slow down,"{'anger': 0.0386, 'disgust': 0.0088, 'fear': 0.0401, 'joy': 0.0023, 'neutral': 0.7076, 'sadness': 0.1468, 'surprise': 0.0557}",,0.0386,0.0088,0.0401,0.0023,0.7076,0.1468,0.0557
+237,COM212,9,6575,4,very glad to be in this class today,,,,,,,,,,
+238,COM212,9,6573,4,I'm very stressed out with the season starting back up,I'm very stressed out with the season starting back up,"{'anger': 0.1077, 'disgust': 0.0088, 'fear': 0.0229, 'joy': 0.003, 'neutral': 0.0313, 'sadness': 0.8152, 'surprise': 0.0112}",,0.1077,0.0088,0.0229,0.003,0.0313,0.8152,0.0112
+239,COM212,9,6285,4,,,,,,,,,,,
+240,COM212,9,6286,4,"Feeling like I'm coming much much closer to catching up, not there yet but I'm feeling more accustomed to everything as time goes on. I need help fixing errors in my PA then I'm going to finish catching up on the HW","Feeling like I'm coming much much closer to catching up, not there yet but I'm feeling more accustomed to everything as time goes on. I need help fixing errors in my PA then I'm going to finish catching up on the HW","{'anger': 0.0047, 'disgust': 0.0284, 'fear': 0.0388, 'joy': 0.2601, 'neutral': 0.6036, 'sadness': 0.0329, 'surprise': 0.0315}",,0.0047,0.0284,0.0388,0.2601,0.6036,0.0329,0.0315
+241,COM212,9,6405,4,nope,,,,,,,,,,
+242,COM212,9,6577,4,"Nervous for the midterm, do not think i will be prepared. think writing it out on paper is whole different ball game.","Nervous for the midterm, do not think i will be prepared. think writing it out on paper is whole different ball game.","{'anger': 0.0008, 'disgust': 0.0004, 'fear': 0.9943, 'joy': 0.001, 'neutral': 0.0012, 'sadness': 0.001, 'surprise': 0.0013}",,0.0008,0.0004,0.9943,0.001,0.0012,0.001,0.0013
+243,COM212,9,6598,4,My laptop got a virus I'm stressed,My laptop got a virus I'm stressed,"{'anger': 0.5321, 'disgust': 0.0043, 'fear': 0.0409, 'joy': 0.0032, 'neutral': 0.0074, 'sadness': 0.4025, 'surprise': 0.0096}",,0.5321,0.0043,0.0409,0.0032,0.0074,0.4025,0.0096
+244,COM212,9,6702,4,None.,,,,,,,,,,
+245,COM212,9,6406,4,doing more coding homework to build competency with java,doing more coding homework to build competency with java,"{'anger': 0.0078, 'disgust': 0.0061, 'fear': 0.0126, 'joy': 0.0077, 'neutral': 0.9427, 'sadness': 0.0112, 'surprise': 0.0118}",,0.0078,0.0061,0.0126,0.0077,0.9427,0.0112,0.0118
+246,COM212,9,6374,4,,,,,,,,,,,
+247,COM212,9,6594,4,thanks for being such a nice and forgiving processor,,,,,,,,,,
+248,COM212,9,6571,4,I don't feel like I am really learning or fully understanding java but I will try harder,I don't feel like I am really learning or fully understanding java but I will try harder,"{'anger': 0.0175, 'disgust': 0.0253, 'fear': 0.071, 'joy': 0.3533, 'neutral': 0.2367, 'sadness': 0.2628, 'surprise': 0.0334}",,0.0175,0.0253,0.071,0.3533,0.2367,0.2628,0.0334
+249,COM212,9,6194,4,it would help to see code alongside the explanation of different strings and lists- like the looped array,it would help to see code alongside the explanation of different strings and lists- like the looped array,"{'anger': 0.0065, 'disgust': 0.0042, 'fear': 0.0018, 'joy': 0.0219, 'neutral': 0.9105, 'sadness': 0.0037, 'surprise': 0.0515}",,0.0065,0.0042,0.0018,0.0219,0.9105,0.0037,0.0515
+297,COM212,10,6405,4,tired,,,,,,,,,,
+298,COM212,10,6406,4,nothing today,,,,,,,,,,
+299,COM212,10,6596,4,slow down,slow down,"{'anger': 0.0401, 'disgust': 0.0231, 'fear': 0.0329, 'joy': 0.0021, 'neutral': 0.7523, 'sadness': 0.0839, 'surprise': 0.0656}",,0.0401,0.0231,0.0329,0.0021,0.7523,0.0839,0.0656
+300,COM212,10,6194,4,no,,,,,,,,,,
+301,COM212,10,6598,4,My friend left college. I'm sad,,,,,,,,,,
+302,COM212,10,6575,4,i am grateful to be in class today,,,,,,,,,,
+303,COM212,10,6594,4,can you talk about some of the parts in pa2,can you talk about some of the parts in pa2,"{'anger': 0.0039, 'disgust': 0.0036, 'fear': 0.0021, 'joy': 0.0033, 'neutral': 0.9436, 'sadness': 0.0075, 'surprise': 0.036}",,0.0039,0.0036,0.0021,0.0033,0.9436,0.0075,0.036
+304,COM212,10,6702,4,No.,,,,,,,,,,
+305,COM212,10,6286,4,I like to rewatch the class recordings so making sure that the content that is visible in the class room is visible on the recording is really important to me.,I like to rewatch the class recordings so making sure that the content that is visible in the class room is visible on the recording is really important to me.,"{'anger': 0.0092, 'disgust': 0.0253, 'fear': 0.0034, 'joy': 0.0475, 'neutral': 0.8985, 'sadness': 0.0064, 'surprise': 0.0097}",,0.0092,0.0253,0.0034,0.0475,0.8985,0.0064,0.0097
+306,COM212,10,6573,4,"I'm very nervous that I'm not up to speed with the class material. Even though I know I am, I don't feel very confident","I'm very nervous that I'm not up to speed with the class material. Even though I know I am, I don't feel very confident","{'anger': 0.0018, 'disgust': 0.0017, 'fear': 0.8174, 'joy': 0.1633, 'neutral': 0.0081, 'sadness': 0.0046, 'surprise': 0.0031}",,0.0018,0.0017,0.8174,0.1633,0.0081,0.0046,0.0031
+307,COM212,10,6438,4,Good so far,,,,,,,,,,
+308,COM212,10,6595,4,I was sick last class but I'm good now,,,,,,,,,,
+360,COM212,11,6406,4,I would like if we lab-like activities like we did in COM 110,I would like if we lab-like activities like we did in COM 110,"{'anger': 0.025, 'disgust': 0.0493, 'fear': 0.0205, 'joy': 0.2733, 'neutral': 0.5576, 'sadness': 0.0282, 'surprise': 0.0461}",,0.025,0.0493,0.0205,0.2733,0.5576,0.0282,0.0461
+361,COM212,11,6405,4,nope,,,,,,,,,,
+362,COM212,11,6702,4,,,,,,,,,,,
+363,COM212,11,6594,4,when are we getting the rings that track out activity,,,,,,,,,,
+364,COM212,11,6577,4,I still feel as though applying the concepts we are learning may be difficult on the exam,I still feel as though applying the concepts we are learning may be difficult on the exam,"{'anger': 0.0091, 'disgust': 0.0218, 'fear': 0.5553, 'joy': 0.0055, 'neutral': 0.0222, 'sadness': 0.3837, 'surprise': 0.0024}",,0.0091,0.0218,0.5553,0.0055,0.0222,0.3837,0.0024
+365,COM212,11,6573,4,nope,,,,,,,,,,
+366,COM212,11,6374,4,,,,,,,,,,,
+367,COM212,11,6194,4,no,,,,,,,,,,
+368,COM212,11,6438,4,All good,,,,,,,,,,
+369,COM212,11,6575,4,super glad to be in class today,,,,,,,,,,
+370,COM212,11,6598,4,no,,,,,,,,,,
+371,COM212,11,6286,4,"Still playing catch up, your patience is very much appreciated","Still playing catch up, your patience is very much appreciated","{'anger': 0.0104, 'disgust': 0.0063, 'fear': 0.0009, 'joy': 0.2039, 'neutral': 0.7517, 'sadness': 0.0112, 'surprise': 0.0156}",,0.0104,0.0063,0.0009,0.2039,0.7517,0.0112,0.0156
+420,COM212,12,6594,4,i am having an output error with my HW4,,,,,,,,,,
+421,COM212,12,6405,4,nope,,,,,,,,,,
+422,COM212,12,6575,4,i am excited to be here today,,,,,,,,,,
+423,COM212,12,6194,4,no,,,,,,,,,,
+424,COM212,12,6406,4,nothing today,,,,,,,,,,
+425,COM212,12,6598,4,ALL SET,,,,,,,,,,
+426,COM212,12,6577,4,Yes I would like to get in contact with a student tutor for tutoring sessions. How do I do this?,Yes I would like to get in contact with a student tutor for tutoring sessions. How do I do this?,"{'anger': 0.0934, 'disgust': 0.0187, 'fear': 0.637, 'joy': 0.0079, 'neutral': 0.1394, 'sadness': 0.0565, 'surprise': 0.0471}",,0.0934,0.0187,0.637,0.0079,0.1394,0.0565,0.0471
+427,COM212,12,6702,4,,,,,,,,,,,
+428,COM212,12,6286,4,"If I we can procure a tutor for me, I think I would feel more supported.","If I we can procure a tutor for me, I think I would feel more supported.","{'anger': 0.0015, 'disgust': 0.0033, 'fear': 0.0007, 'joy': 0.9793, 'neutral': 0.0085, 'sadness': 0.0059, 'surprise': 0.0008}",,0.0015,0.0033,0.0007,0.9793,0.0085,0.0059,0.0008
+429,COM212,12,6438,4,no,,,,,,,,,,
+469,COM212,13,6598,4,ALL SET,,,,,,,,,,
+470,COM212,13,6405,4,nope,,,,,,,,,,
+471,COM212,13,6194,4,no,,,,,,,,,,
+472,COM212,13,6702,4,,,,,,,,,,,
+473,COM212,13,6286,4,Maybe a one on one during office hours,Maybe a one on one during office hours,"{'anger': 0.0041, 'disgust': 0.0078, 'fear': 0.0039, 'joy': 0.0043, 'neutral': 0.9636, 'sadness': 0.0025, 'surprise': 0.0138}",,0.0041,0.0078,0.0039,0.0043,0.9636,0.0025,0.0138
+474,COM212,13,6594,4,very tired,,,,,,,,,,
+475,COM212,13,6438,4,no,,,,,,,,,,
+476,COM212,13,6575,4,i am excited to be here but i do feel a little sick today,,,,,,,,,,
+477,COM212,13,6595,4,I will catch up on work over spring break,,,,,,,,,,
+499,COM212,14,6405,4,nope,,,,,,,,,,
+500,COM212,14,6285,4,,,,,,,,,,,
+501,COM212,14,6575,4,let's do some more hands on stuff in class!,let's do some more hands on stuff in class!,"{'anger': 0.0765, 'disgust': 0.0158, 'fear': 0.0056, 'joy': 0.5681, 'neutral': 0.2769, 'sadness': 0.0149, 'surprise': 0.0422}",,0.0765,0.0158,0.0056,0.5681,0.2769,0.0149,0.0422
+502,COM212,14,6571,4,,,,,,,,,,,
+503,COM212,14,6702,4,,,,,,,,,,,
+555,COM212,17,6405,4,nope,,,,,,,,,,
+556,COM212,17,6594,4,super tired :(,,,,,,,,,,
+557,COM212,17,6194,4,no,,,,,,,,,,
+558,COM212,17,6598,4,no,,,,,,,,,,
+559,COM212,17,6438,4,no,,,,,,,,,,
+560,COM212,17,6702,4,,,,,,,,,,,
+561,COM212,17,6588,4,Nope,,,,,,,,,,
+562,COM212,17,6573,4,im nervous for the midterm,im nervous for the midterm,"{'anger': 0.0008, 'disgust': 0.0002, 'fear': 0.994, 'joy': 0.0019, 'neutral': 0.0003, 'sadness': 0.0022, 'surprise': 0.0006}",,0.0008,0.0002,0.994,0.0019,0.0003,0.0022,0.0006
+563,COM212,17,6285,4,na,,,,,,,,,,
+564,COM212,17,6575,4,i am doing so well,,,,,,,,,,
+565,COM212,17,6570,4,I think we should implement more in class coding practices and homework. It's been difficult to remember the Java syntax.,I think we should implement more in class coding practices and homework. It's been difficult to remember the Java syntax.,"{'anger': 0.0117, 'disgust': 0.0996, 'fear': 0.0162, 'joy': 0.0015, 'neutral': 0.8224, 'sadness': 0.032, 'surprise': 0.0167}",,0.0117,0.0996,0.0162,0.0015,0.8224,0.032,0.0167
+593,COM212,19,6405,4,nope,,,,,,,,,,
+594,COM212,19,6598,4,,,,,,,,,,,
+595,COM212,19,6702,4,,,,,,,,,,,
+596,COM212,19,6570,4,,,,,,,,,,,
+627,COM212,20,6194,4,,,,,,,,,,,
+628,COM212,20,6594,4,hope you have a wonderful day,,,,,,,,,,
+629,COM212,20,6598,4,5,,,,,,,,,,
+630,COM212,20,6405,4,nope,,,,,,,,,,
+631,COM212,20,6570,4,,,,,,,,,,,
+632,COM212,20,6702,4,,,,,,,,,,,
+681,COM212,11,6406,4,nothing today,,,,,,,,,,
+682,COM212,11,6405,4,nope,,,,,,,,,,
+683,COM212,11,6594,4,hope your day is going well,,,,,,,,,,
+684,COM212,11,6438,4,All good right now,,,,,,,,,,
+685,COM212,11,6575,4,thank you for moving the midterm,,,,,,,,,,
+686,COM212,11,6598,4,na,,,,,,,,,,
+687,COM212,11,6194,4,no,,,,,,,,,,
+688,COM212,11,6702,4,,,,,,,,,,,
+689,COM212,11,6577,4,i have heard concerning things about this midterm from former DS students,,,,,,,,,,
+690,COM212,11,6285,4,complaints about midterm from past years are scaring me,,,,,,,,,,
+691,COM212,11,6286,4,"I'm trying not to be overwhelmed with extracurriculars and taking care of myself. I am working as diligently as I can but my pace is not very fast, again I'm just still hoping for your continued patience.","I'm trying not to be overwhelmed with extracurriculars and taking care of myself. I am working as diligently as I can but my pace is not very fast, again I'm just still hoping for your continued patience.","{'anger': 0.0107, 'disgust': 0.0025, 'fear': 0.0259, 'joy': 0.0132, 'neutral': 0.8394, 'sadness': 0.0118, 'surprise': 0.0965}",,0.0107,0.0025,0.0259,0.0132,0.8394,0.0118,0.0965
+692,COM212,11,6595,4,Not getting much sleep lately which is impacting my ability to get homework done,Not getting much sleep lately which is impacting my ability to get homework done,"{'anger': 0.0233, 'disgust': 0.0116, 'fear': 0.0082, 'joy': 0.0027, 'neutral': 0.0311, 'sadness': 0.9154, 'surprise': 0.0077}",,0.0233,0.0116,0.0082,0.0027,0.0311,0.9154,0.0077
+726,COM212,18,6405,4,nope,,,,,,,,,,
+727,COM212,18,6570,4,,,,,,,,,,,
+728,COM212,18,6598,4,no,,,,,,,,,,
+729,COM212,18,6573,4,i have mono,i have mono,"{'anger': 0.0045, 'disgust': 0.0007, 'fear': 0.0071, 'joy': 0.0358, 'neutral': 0.0122, 'sadness': 0.9256, 'surprise': 0.0141}",,0.0045,0.0007,0.0071,0.0358,0.0122,0.9256,0.0141
+763,COM212,21,6702,4,,,,,,,,,,,
+764,COM212,21,6405,4,nope,,,,,,,,,,
+765,COM212,21,6570,4,,,,,,,,,,,
+766,COM212,21,6594,4,Hi :),,,,,,,,,,
+767,COM212,21,6194,4,no,,,,,,,,,,
+810,COM212,22,6405,4,nope,,,,,,,,,,
+811,COM212,22,6598,4,,,,,,,,,,,
+812,COM212,22,6570,4,,,,,,,,,,,
+813,COM212,22,6594,4,we need to go outside it is so nice outsid,we need to go outside it is so nice outsid,"{'anger': 0.0092, 'disgust': 0.0142, 'fear': 0.0039, 'joy': 0.1801, 'neutral': 0.6816, 'sadness': 0.0538, 'surprise': 0.0573}",,0.0092,0.0142,0.0039,0.1801,0.6816,0.0538,0.0573
+814,COM212,22,6702,4,,,,,,,,,,,
+815,COM212,22,6573,4,I'm still not feeling great- but I had to come back from my medical leave or the school would have unenrolled me :/,I'm still not feeling great- but I had to come back from my medical leave or the school would have unenrolled me :/,"{'anger': 0.0321, 'disgust': 0.0095, 'fear': 0.5405, 'joy': 0.2568, 'neutral': 0.0326, 'sadness': 0.1165, 'surprise': 0.012}",,0.0321,0.0095,0.5405,0.2568,0.0326,0.1165,0.012
+816,COM212,22,6194,4,no,,,,,,,,,,
+817,COM212,22,6438,4,no,,,,,,,,,,
+850,COM212,23,6596,4,class is outside ... amazing!,class is outside ... amazing!,"{'anger': 0.0037, 'disgust': 0.0013, 'fear': 0.0036, 'joy': 0.084, 'neutral': 0.0163, 'sadness': 0.0037, 'surprise': 0.8874}",,0.0037,0.0013,0.0036,0.084,0.0163,0.0037,0.8874
+851,COM212,23,6702,4,,,,,,,,,,,
+852,COM212,23,6405,4,nope,,,,,,,,,,
+853,COM212,23,6438,4,thank you for letting us have class outide,thank you for letting us have class outide,"{'anger': 0.0098, 'disgust': 0.0015, 'fear': 0.0015, 'joy': 0.7028, 'neutral': 0.1732, 'sadness': 0.0082, 'surprise': 0.103}",,0.0098,0.0015,0.0015,0.7028,0.1732,0.0082,0.103
+854,COM212,23,6598,4,,,,,,,,,,,
+855,COM212,23,6575,4,i love being outside today,i love being outside today,"{'anger': 0.0021, 'disgust': 0.0003, 'fear': 0.0008, 'joy': 0.9605, 'neutral': 0.0015, 'sadness': 0.0281, 'surprise': 0.0066}",,0.0021,0.0003,0.0008,0.9605,0.0015,0.0281,0.0066
+883,COM212,24,6702,4,,,,,,,,,,,
+884,COM212,24,6405,4,nope,,,,,,,,,,
+885,COM212,24,6438,4,no,,,,,,,,,,
+886,COM212,24,6594,4,can we go outside today,,,,,,,,,,
+935,COM212,25,6598,4,,,,,,,,,,,
+936,COM212,25,6194,4,no,,,,,,,,,,
+937,COM212,25,6596,4,no,,,,,,,,,,
+938,COM212,25,6286,4,"I'm working to resubmit my old assignments that I wasn't able to do my best on, I'm wondering how late marks will end up affecting my whole grade and if i may be able to have some extra credit","I'm working to resubmit my old assignments that I wasn't able to do my best on, I'm wondering how late marks will end up affecting my whole grade and if i may be able to have some extra credit","{'anger': 0.0051, 'disgust': 0.0016, 'fear': 0.0072, 'joy': 0.0016, 'neutral': 0.0153, 'sadness': 0.0063, 'surprise': 0.9629}",,0.0051,0.0016,0.0072,0.0016,0.0153,0.0063,0.9629
+939,COM212,25,6438,4,no,,,,,,,,,,
+940,COM212,25,6405,4,nope,,,,,,,,,,
+941,COM212,25,6573,4,the weather has been beautiful,,,,,,,,,,
+942,COM212,25,6702,4,,,,,,,,,,,
+943,COM212,25,6570,4,,,,,,,,,,,

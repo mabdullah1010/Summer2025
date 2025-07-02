@@ -10,7 +10,8 @@ OPEN_API_KEY = os.getenv("OPEN_API_KEY")
 # Initialize client
 client = OpenAI(api_key=OPEN_API_KEY)
 # Choose model
-OPENAI_MODEL = "gpt-4.1"  # Or use "gpt-4o"
+OPENAI_MODEL = "gpt-4.1"  
+
 
 def get_openai_response(prompt_text, max_retries=3, delay_seconds=5):
     for attempt in range(max_retries):
