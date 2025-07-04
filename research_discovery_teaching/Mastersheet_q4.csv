@@ -1,0 +1,313 @@
+response_id,course,class_number,student_id,question_number,question_response,clean,anger,disgust,fear,joy,neutral,sadness,surprise,dominant_emotion,theme
+52,COM212,5,6438,4,not as of yet,,,,,,,,,,NA
+53,COM212,5,6594,4,allow for more time to ask questions,allow for more time to ask questions,0.0191,0.0109,0.0149,0.0053,0.9117,0.0174,0.0207,neutral,"Pace, Content Coverage and In-Class Practice"
+54,COM212,5,6575,4,I would like to go over more Java in class.,I would like to go over more Java in class.,0.0166,0.0157,0.0205,0.4844,0.1434,0.3092,0.0101,joy,"Pace, Content Coverage and In-Class Practice"
+55,COM212,5,6285,4,,,,,,,,,,,NA
+56,COM212,5,6702,4,None.,,,,,,,,,,NA
+57,COM212,5,6598,4,I'm hungry,,,,,,,,,,NA
+58,COM212,5,6596,4,we need to go over the basics more,we need to go over the basics more,0.0072,0.0075,0.0079,0.0052,0.9534,0.0092,0.0095,neutral,"Pace, Content Coverage and In-Class Practice"
+59,COM212,5,6406,4,I would like it if all the content in the textbooks be covered in class as the text itself can be rather verbose. I understand that time constraints might prevent this,I would like it if all the content in the textbooks be covered in class as the text itself can be rather verbose. I understand that time constraints might prevent this,0.0126,0.0801,0.0042,0.0102,0.8741,0.014,0.0048,neutral,"Pace, Content Coverage and In-Class Practice"
+60,COM212,5,6588,4,No,,,,,,,,,,NA
+61,COM212,5,6577,4,More coding in class. Looking at and reading slides is difficult to focus on sometimes.,More coding in class. Looking at and reading slides is difficult to focus on sometimes.,0.0401,0.4183,0.081,0.0023,0.208,0.2285,0.0217,disgust,"Pace, Content Coverage and In-Class Practice"
+62,COM212,5,6405,4,nope,,,,,,,,,,NA
+63,COM212,5,6286,4,"I am still quite behind in most of my classes because of the flu and just arriving on campus later than everyone else, I'm hoping that i can have a bit of grace with assignment flexibility in due dates so that i can catch up and be at the same pace as the rest of the class.","I am still quite behind in most of my classes because of the flu and just arriving on campus later than everyone else, I'm hoping that i can have a bit of grace with assignment flexibility in due dates so that i can catch up and be at the same pace as the rest of the class.",0.006,0.002,0.0083,0.3119,0.5593,0.0778,0.0347,neutral,Assignments and Grading
+64,COM212,5,6194,4,"I feel like the homework assignments do not reflect the work we do in class, so sitting down to do it and it is unfamiliar is discouraging. The TA sessions are helpful, but it would be nice to have something that I feel prepared to figure out on my own.","I feel like the homework assignments do not reflect the work we do in class, so sitting down to do it and it is unfamiliar is discouraging. The TA sessions are helpful, but it would be nice to have something that I feel prepared to figure out on my own.",0.0041,0.0276,0.2619,0.2888,0.3483,0.057,0.0123,neutral,Assignments and Grading
+110,COM212,7,6406,4,nothing right now,,,,,,,,,,NA
+111,COM212,7,6702,4,5,,,,,,,,,,NA
+112,COM212,7,6598,4,,,,,,,,,,,NA
+113,COM212,7,6438,4,the ta is kind of harsh,,,,,,,,,,NA
+114,COM212,7,6374,4,,,,,,,,,,,NA
+115,COM212,7,6286,4,I am still grieving so I might not be operating at 100% these days...,I am still grieving so I might not be operating at 100% these days...,0.0016,0.0031,0.0066,0.0023,0.029,0.9474,0.0101,sadness,"Workload, Stress and Well-being"
+116,COM212,7,6573,4,I feel kind of left behind being sick for so long and stressed out catching up on all of my work,I feel kind of left behind being sick for so long and stressed out catching up on all of my work,0.0021,0.0077,0.0045,0.0015,0.0159,0.9658,0.0024,sadness,"Workload, Stress and Well-being"
+117,COM212,7,6594,4,hope you had a great snowday,,,,,,,,,,NA
+118,COM212,7,6575,4,hard day but im glad to be here in class,,,,,,,,,,NA
+119,COM212,7,6588,4,no,,,,,,,,,,NA
+120,COM212,7,6405,4,nope,,,,,,,,,,NA
+166,COM212,8,6596,4,nope,,,,,,,,,,NA
+167,COM212,8,6594,4,im super tired from all the work this week and being slightly sick please take it easy on me today,im super tired from all the work this week and being slightly sick please take it easy on me today,0.0028,0.0004,0.0018,0.0054,0.0063,0.9784,0.0049,sadness,"Workload, Stress and Well-being"
+168,COM212,8,6406,4,nothing today,,,,,,,,,,NA
+169,COM212,8,6702,4,No.,,,,,,,,,,NA
+170,COM212,8,6374,4,,,,,,,,,,,NA
+171,COM212,8,6194,4,no,,,,,,,,,,NA
+172,COM212,8,6573,4,Its a gloomy day & I'm trying very hard to grasp the material in this class but I'm having a hard time.,Its a gloomy day & I'm trying very hard to grasp the material in this class but I'm having a hard time.,0.0007,0.0014,0.0007,0.0015,0.0041,0.9899,0.0016,sadness,Confidence and Support Needs
+173,COM212,8,6438,4,All good right now,,,,,,,,,,NA
+174,COM212,8,6575,4,happy to be here it's hard but im happy to work,happy to be here it's hard but im happy to work,0.0017,0.0003,0.0004,0.9617,0.0019,0.0105,0.0234,joy,Appreciation and Classroom Environment
+175,COM212,8,6598,4,no,,,,,,,,,,NA
+176,COM212,8,6286,4,"I'm struggling alot, but im still trying to show up and put in the most effort i can.","I'm struggling alot, but im still trying to show up and put in the most effort i can.",0.002,0.0029,0.0483,0.0454,0.0176,0.8804,0.0034,sadness,Confidence and Support Needs
+177,COM212,8,6405,4,nope,,,,,,,,,,NA
+235,COM212,9,6438,4,im scared for the midterm sir,im scared for the midterm sir,0.0007,0.0002,0.9946,0.0008,0.0006,0.0024,0.0008,fear,Confidence and Support Needs
+236,COM212,9,6596,4,please slow down,please slow down,0.0386,0.0088,0.0401,0.0023,0.7076,0.1468,0.0557,neutral,"Pace, Content Coverage and In-Class Practice"
+237,COM212,9,6575,4,very glad to be in this class today,,,,,,,,,,NA
+238,COM212,9,6573,4,I'm very stressed out with the season starting back up,I'm very stressed out with the season starting back up,0.1077,0.0088,0.0229,0.003,0.0313,0.8152,0.0112,sadness,"Workload, Stress and Well-being"
+239,COM212,9,6285,4,,,,,,,,,,,NA
+240,COM212,9,6286,4,"Feeling like I'm coming much much closer to catching up, not there yet but I'm feeling more accustomed to everything as time goes on. I need help fixing errors in my PA then I'm going to finish catching up on the HW","Feeling like I'm coming much much closer to catching up, not there yet but I'm feeling more accustomed to everything as time goes on. I need help fixing errors in my PA then I'm going to finish catching up on the HW",0.0047,0.0284,0.0388,0.2601,0.6036,0.0329,0.0315,neutral,Confidence and Support Needs
+241,COM212,9,6405,4,nope,,,,,,,,,,NA
+242,COM212,9,6577,4,"Nervous for the midterm, do not think i will be prepared. think writing it out on paper is whole different ball game.","Nervous for the midterm, do not think i will be prepared. think writing it out on paper is whole different ball game.",0.0008,0.0004,0.9943,0.001,0.0012,0.001,0.0013,fear,Confidence and Support Needs
+243,COM212,9,6598,4,My laptop got a virus I'm stressed,My laptop got a virus I'm stressed,0.5321,0.0043,0.0409,0.0032,0.0074,0.4025,0.0096,anger,Technical Difficulties
+244,COM212,9,6702,4,None.,,,,,,,,,,NA
+245,COM212,9,6406,4,doing more coding homework to build competency with java,doing more coding homework to build competency with java,0.0078,0.0061,0.0126,0.0077,0.9427,0.0112,0.0118,neutral,"Pace, Content Coverage and In-Class Practice"
+246,COM212,9,6374,4,,,,,,,,,,,NA
+247,COM212,9,6594,4,thanks for being such a nice and forgiving processor,,,,,,,,,,NA
+248,COM212,9,6571,4,I don't feel like I am really learning or fully understanding java but I will try harder,I don't feel like I am really learning or fully understanding java but I will try harder,0.0175,0.0253,0.071,0.3533,0.2367,0.2628,0.0334,joy,Confidence and Support Needs
+249,COM212,9,6194,4,it would help to see code alongside the explanation of different strings and lists- like the looped array,it would help to see code alongside the explanation of different strings and lists- like the looped array,0.0065,0.0042,0.0018,0.0219,0.9105,0.0037,0.0515,neutral,"Pace, Content Coverage and In-Class Practice"
+297,COM212,10,6405,4,tired,,,,,,,,,,NA
+298,COM212,10,6406,4,nothing today,,,,,,,,,,NA
+299,COM212,10,6596,4,slow down,slow down,0.0401,0.0231,0.0329,0.0021,0.7523,0.0839,0.0656,neutral,"Pace, Content Coverage and In-Class Practice"
+300,COM212,10,6194,4,no,,,,,,,,,,NA
+301,COM212,10,6598,4,My friend left college. I'm sad,,,,,,,,,,NA
+302,COM212,10,6575,4,i am grateful to be in class today,,,,,,,,,,NA
+303,COM212,10,6594,4,can you talk about some of the parts in pa2,can you talk about some of the parts in pa2,0.0039,0.0036,0.0021,0.0033,0.9436,0.0075,0.036,neutral,"Pace, Content Coverage and In-Class Practice"
+304,COM212,10,6702,4,No.,,,,,,,,,,NA
+305,COM212,10,6286,4,I like to rewatch the class recordings so making sure that the content that is visible in the class room is visible on the recording is really important to me.,I like to rewatch the class recordings so making sure that the content that is visible in the class room is visible on the recording is really important to me.,0.0092,0.0253,0.0034,0.0475,0.8985,0.0064,0.0097,neutral,Technical Difficulties
+306,COM212,10,6573,4,"I'm very nervous that I'm not up to speed with the class material. Even though I know I am, I don't feel very confident","I'm very nervous that I'm not up to speed with the class material. Even though I know I am, I don't feel very confident",0.0018,0.0017,0.8174,0.1633,0.0081,0.0046,0.0031,fear,Confidence and Support Needs
+307,COM212,10,6438,4,Good so far,,,,,,,,,,NA
+308,COM212,10,6595,4,I was sick last class but I'm good now,,,,,,,,,,NA
+360,COM212,11,6406,4,I would like if we lab-like activities like we did in COM 110,I would like if we lab-like activities like we did in COM 110,0.025,0.0493,0.0205,0.2733,0.5576,0.0282,0.0461,neutral,"Pace, Content Coverage and In-Class Practice"
+361,COM212,11,6405,4,nope,,,,,,,,,,NA
+362,COM212,11,6702,4,,,,,,,,,,,NA
+363,COM212,11,6594,4,when are we getting the rings that track out activity,,,,,,,,,,NA
+364,COM212,11,6577,4,I still feel as though applying the concepts we are learning may be difficult on the exam,I still feel as though applying the concepts we are learning may be difficult on the exam,0.0091,0.0218,0.5553,0.0055,0.0222,0.3837,0.0024,fear,Confidence and Support Needs
+365,COM212,11,6573,4,nope,,,,,,,,,,NA
+366,COM212,11,6374,4,,,,,,,,,,,NA
+367,COM212,11,6194,4,no,,,,,,,,,,NA
+368,COM212,11,6438,4,All good,,,,,,,,,,NA
+369,COM212,11,6575,4,super glad to be in class today,,,,,,,,,,NA
+370,COM212,11,6598,4,no,,,,,,,,,,NA
+371,COM212,11,6286,4,"Still playing catch up, your patience is very much appreciated","Still playing catch up, your patience is very much appreciated",0.0104,0.0063,0.0009,0.2039,0.7517,0.0112,0.0156,neutral,Confidence and Support Needs
+420,COM212,12,6594,4,i am having an output error with my HW4,,,,,,,,,,NA
+421,COM212,12,6405,4,nope,,,,,,,,,,NA
+422,COM212,12,6575,4,i am excited to be here today,,,,,,,,,,NA
+423,COM212,12,6194,4,no,,,,,,,,,,NA
+424,COM212,12,6406,4,nothing today,,,,,,,,,,NA
+425,COM212,12,6598,4,ALL SET,,,,,,,,,,NA
+426,COM212,12,6577,4,Yes I would like to get in contact with a student tutor for tutoring sessions. How do I do this?,Yes I would like to get in contact with a student tutor for tutoring sessions. How do I do this?,0.0934,0.0187,0.637,0.0079,0.1394,0.0565,0.0471,fear,Confidence and Support Needs
+427,COM212,12,6702,4,,,,,,,,,,,NA
+428,COM212,12,6286,4,"If I we can procure a tutor for me, I think I would feel more supported.","If I we can procure a tutor for me, I think I would feel more supported.",0.0015,0.0033,0.0007,0.9793,0.0085,0.0059,0.0008,joy,Confidence and Support Needs
+429,COM212,12,6438,4,no,,,,,,,,,,NA
+469,COM212,13,6598,4,ALL SET,,,,,,,,,,NA
+470,COM212,13,6405,4,nope,,,,,,,,,,NA
+471,COM212,13,6194,4,no,,,,,,,,,,NA
+472,COM212,13,6702,4,,,,,,,,,,,NA
+473,COM212,13,6286,4,Maybe a one on one during office hours,Maybe a one on one during office hours,0.0041,0.0078,0.0039,0.0043,0.9636,0.0025,0.0138,neutral,Confidence and Support Needs
+474,COM212,13,6594,4,very tired,,,,,,,,,,NA
+475,COM212,13,6438,4,no,,,,,,,,,,NA
+476,COM212,13,6575,4,i am excited to be here but i do feel a little sick today,,,,,,,,,,NA
+477,COM212,13,6595,4,I will catch up on work over spring break,,,,,,,,,,NA
+499,COM212,14,6405,4,nope,,,,,,,,,,NA
+500,COM212,14,6285,4,,,,,,,,,,,NA
+501,COM212,14,6575,4,let's do some more hands on stuff in class!,let's do some more hands on stuff in class!,0.0765,0.0158,0.0056,0.5681,0.2769,0.0149,0.0422,joy,"Pace, Content Coverage and In-Class Practice"
+502,COM212,14,6571,4,,,,,,,,,,,NA
+503,COM212,14,6702,4,,,,,,,,,,,NA
+555,COM212,17,6405,4,nope,,,,,,,,,,NA
+556,COM212,17,6594,4,super tired :(,,,,,,,,,,NA
+557,COM212,17,6194,4,no,,,,,,,,,,NA
+558,COM212,17,6598,4,no,,,,,,,,,,NA
+559,COM212,17,6438,4,no,,,,,,,,,,NA
+560,COM212,17,6702,4,,,,,,,,,,,NA
+561,COM212,17,6588,4,Nope,,,,,,,,,,NA
+562,COM212,17,6573,4,im nervous for the midterm,im nervous for the midterm,0.0008,0.0002,0.994,0.0019,0.0003,0.0022,0.0006,fear,Confidence and Support Needs
+563,COM212,17,6285,4,na,,,,,,,,,,NA
+564,COM212,17,6575,4,i am doing so well,,,,,,,,,,NA
+565,COM212,17,6570,4,I think we should implement more in class coding practices and homework. It's been difficult to remember the Java syntax.,I think we should implement more in class coding practices and homework. It's been difficult to remember the Java syntax.,0.0117,0.0996,0.0162,0.0015,0.8224,0.032,0.0167,neutral,"Pace, Content Coverage and In-Class Practice"
+593,COM212,19,6405,4,nope,,,,,,,,,,NA
+594,COM212,19,6598,4,,,,,,,,,,,NA
+595,COM212,19,6702,4,,,,,,,,,,,NA
+596,COM212,19,6570,4,,,,,,,,,,,NA
+627,COM212,20,6194,4,,,,,,,,,,,NA
+628,COM212,20,6594,4,hope you have a wonderful day,,,,,,,,,,NA
+629,COM212,20,6598,4,5,,,,,,,,,,NA
+630,COM212,20,6405,4,nope,,,,,,,,,,NA
+631,COM212,20,6570,4,,,,,,,,,,,NA
+632,COM212,20,6702,4,,,,,,,,,,,NA
+681,COM212,11,6406,4,nothing today,,,,,,,,,,NA
+682,COM212,11,6405,4,nope,,,,,,,,,,NA
+683,COM212,11,6594,4,hope your day is going well,,,,,,,,,,NA
+684,COM212,11,6438,4,All good right now,,,,,,,,,,NA
+685,COM212,11,6575,4,thank you for moving the midterm,,,,,,,,,,NA
+686,COM212,11,6598,4,na,,,,,,,,,,NA
+687,COM212,11,6194,4,no,,,,,,,,,,NA
+688,COM212,11,6702,4,,,,,,,,,,,NA
+689,COM212,11,6577,4,i have heard concerning things about this midterm from former DS students,,,,,,,,,,NA
+690,COM212,11,6285,4,complaints about midterm from past years are scaring me,,,,,,,,,,NA
+691,COM212,11,6286,4,"I'm trying not to be overwhelmed with extracurriculars and taking care of myself. I am working as diligently as I can but my pace is not very fast, again I'm just still hoping for your continued patience.","I'm trying not to be overwhelmed with extracurriculars and taking care of myself. I am working as diligently as I can but my pace is not very fast, again I'm just still hoping for your continued patience.",0.0107,0.0025,0.0259,0.0132,0.8394,0.0118,0.0965,neutral,"Workload, Stress and Well-being"
+692,COM212,11,6595,4,Not getting much sleep lately which is impacting my ability to get homework done,Not getting much sleep lately which is impacting my ability to get homework done,0.0233,0.0116,0.0082,0.0027,0.0311,0.9154,0.0077,sadness,"Workload, Stress and Well-being"
+726,COM212,18,6405,4,nope,,,,,,,,,,NA
+727,COM212,18,6570,4,,,,,,,,,,,NA
+728,COM212,18,6598,4,no,,,,,,,,,,NA
+729,COM212,18,6573,4,i have mono,i have mono,0.0045,0.0007,0.0071,0.0358,0.0122,0.9256,0.0141,sadness,Other
+763,COM212,21,6702,4,,,,,,,,,,,NA
+764,COM212,21,6405,4,nope,,,,,,,,,,NA
+765,COM212,21,6570,4,,,,,,,,,,,NA
+766,COM212,21,6594,4,Hi :),,,,,,,,,,NA
+767,COM212,21,6194,4,no,,,,,,,,,,NA
+810,COM212,22,6405,4,nope,,,,,,,,,,NA
+811,COM212,22,6598,4,,,,,,,,,,,NA
+812,COM212,22,6570,4,,,,,,,,,,,NA
+813,COM212,22,6594,4,we need to go outside it is so nice outsid,we need to go outside it is so nice outsid,0.0092,0.0142,0.0039,0.1801,0.6816,0.0538,0.0573,neutral,Other
+814,COM212,22,6702,4,,,,,,,,,,,NA
+815,COM212,22,6573,4,I'm still not feeling great- but I had to come back from my medical leave or the school would have unenrolled me :/,I'm still not feeling great- but I had to come back from my medical leave or the school would have unenrolled me :/,0.0321,0.0095,0.5405,0.2568,0.0326,0.1165,0.012,fear,"Workload, Stress and Well-being"
+816,COM212,22,6194,4,no,,,,,,,,,,NA
+817,COM212,22,6438,4,no,,,,,,,,,,NA
+850,COM212,23,6596,4,class is outside ... amazing!,class is outside ... amazing!,0.0037,0.0013,0.0036,0.084,0.0163,0.0037,0.8874,surprise,Appreciation and Classroom Environment
+851,COM212,23,6702,4,,,,,,,,,,,NA
+852,COM212,23,6405,4,nope,,,,,,,,,,NA
+853,COM212,23,6438,4,thank you for letting us have class outide,thank you for letting us have class outide,0.0098,0.0015,0.0015,0.7028,0.1732,0.0082,0.103,joy,Appreciation and Classroom Environment
+854,COM212,23,6598,4,,,,,,,,,,,NA
+855,COM212,23,6575,4,i love being outside today,i love being outside today,0.0021,0.0003,0.0008,0.9605,0.0015,0.0281,0.0066,joy,Appreciation and Classroom Environment
+883,COM212,24,6702,4,,,,,,,,,,,NA
+884,COM212,24,6405,4,nope,,,,,,,,,,NA
+885,COM212,24,6438,4,no,,,,,,,,,,NA
+886,COM212,24,6594,4,can we go outside today,,,,,,,,,,NA
+935,COM212,25,6598,4,,,,,,,,,,,NA
+936,COM212,25,6194,4,no,,,,,,,,,,NA
+937,COM212,25,6596,4,no,,,,,,,,,,NA
+938,COM212,25,6286,4,"I'm working to resubmit my old assignments that I wasn't able to do my best on, I'm wondering how late marks will end up affecting my whole grade and if i may be able to have some extra credit","I'm working to resubmit my old assignments that I wasn't able to do my best on, I'm wondering how late marks will end up affecting my whole grade and if i may be able to have some extra credit",0.0051,0.0016,0.0072,0.0016,0.0153,0.0063,0.9629,surprise,Assignments and Grading
+939,COM212,25,6438,4,no,,,,,,,,,,NA
+940,COM212,25,6405,4,nope,,,,,,,,,,NA
+941,COM212,25,6573,4,the weather has been beautiful,,,,,,,,,,NA
+942,COM212,25,6702,4,,,,,,,,,,,NA
+943,COM212,25,6570,4,,,,,,,,,,,NA
+1013,COM214,5,6406,4,Often the readings about the content of the class are due multiple days before the content is covered in class. I'd benefit if the textbook was more of a preview of what would be covered in class as often the textbook is very dense.,Often the readings about the content of the class are due multiple days before the content is covered in class. I'd benefit if the textbook was more of a preview of what would be covered in class as often the textbook is very dense.,0.0086,0.0222,0.0023,0.015,0.9367,0.0051,0.0101,neutral,"Pace, Content Coverage and In-Class Practice"
+1014,COM214,5,6708,4,"Nothing, I think the textbook is a good resource.",,,,,,,,,,NA
+1015,COM214,5,6583,4,"I wish we did not have to do the writeups for each class. It adds to the workload we already have and tends to produce stress as it is due twice a week. The readings are interesting and I love the class, I just find the writeups cause stress and more pressure that does not need to exist in this class.","I wish we did not have to do the writeups for each class. It adds to the workload we already have and tends to produce stress as it is due twice a week. The readings are interesting and I love the class, I just find the writeups cause stress and more pressure that does not need to exist in this class.",0.007,0.0222,0.0038,0.305,0.3495,0.1823,0.1302,neutral,"Workload, Stress and Well-being"
+1016,COM214,5,6718,4,I find the readings very interesting and helpful during homework but I get discouraged by the forum posts. I find that 500 words is much longer than can be easily written about our homework assignments and struggle to reach the desired lenght of post despite having read and absorbed the homework content.,I find the readings very interesting and helpful during homework but I get discouraged by the forum posts. I find that 500 words is much longer than can be easily written about our homework assignments and struggle to reach the desired lenght of post despite having read and absorbed the homework content.,0.0174,0.0925,0.2172,0.0273,0.1008,0.4724,0.0723,sadness,Assignments and Grading
+1017,COM214,5,6504,4,"I am a bit overwhelmed by the volume of content for this course- I think mastering HTML, CSS, Javascript, and Ruby in the span of 4 months won't be easy","I am a bit overwhelmed by the volume of content for this course- I think mastering HTML, CSS, Javascript, and Ruby in the span of 4 months won't be easy",0.0073,0.0027,0.0654,0.0028,0.0068,0.0017,0.9133,surprise,"Pace, Content Coverage and In-Class Practice"
+1018,COM214,5,6712,4,let us pick our groups,let us pick our groups,0.0163,0.0045,0.0039,0.0085,0.9555,0.0063,0.0051,neutral,Other
+1019,COM214,5,6288,4,I was thinking about maybe lowering the writing limit for the SWA. I've been finding it really hard to get to the 500 without feeling like I'm just summarizing everything I just read. It gets a bit frustrating because I feel like I'm not doing good enough on them.,I was thinking about maybe lowering the writing limit for the SWA. I've been finding it really hard to get to the 500 without feeling like I'm just summarizing everything I just read. It gets a bit frustrating because I feel like I'm not doing good enough on them.,0.0787,0.0394,0.0052,0.0045,0.0561,0.7997,0.0164,sadness,Assignments and Grading
+1020,COM214,5,6707,4,"I think for the programming assignments, if you could go a little more into depth about them during class, that would make me feel more comfortable. Another thing I think would be interesting is like a running list of features that we have learned through the course. The more we go the more we add, and sometimes it is overwhelming just knowing how to do simple things when there are so many things that are thrown at us.","I think for the programming assignments, if you could go a little more into depth about them during class, that would make me feel more comfortable. Another thing I think would be interesting is like a running list of features that we have learned through the course. The more we go the more we add, and sometimes it is overwhelming just knowing how to do simple things when there are so many things that are thrown at us.",0.0043,0.0219,0.0072,0.3316,0.6073,0.0031,0.0246,neutral,"Pace, Content Coverage and In-Class Practice"
+1021,COM214,5,6598,4,,,,,,,,,,,NA
+1022,COM214,5,6147,4,not right now,,,,,,,,,,NA
+1023,COM214,5,6575,4,i really wish that we could choose our group assignment partners for future assignments,i really wish that we could choose our group assignment partners for future assignments,0.0018,0.0006,0.0098,0.1139,0.0091,0.8318,0.0329,sadness,Assignments and Grading
+1024,COM214,5,6709,4,nothing so far that I have encountered,,,,,,,,,,NA
+1096,COM214,7,6711,4,,,,,,,,,,,NA
+1097,COM214,7,6598,4,Nope,,,,,,,,,,NA
+1098,COM214,7,6147,4,no,,,,,,,,,,NA
+1099,COM214,7,6703,4,none,,,,,,,,,,NA
+1100,COM214,7,6708,4,"No, I'm excited to code more!",,,,,,,,,,NA
+1101,COM214,7,6583,4,Just had a particularly bad day yesterday where I was unable to work. Hopefully this is a one off,,,,,,,,,,NA
+1102,COM214,7,6376,4,no,,,,,,,,,,NA
+1103,COM214,7,6575,4,this is a really hard day for me today but i really love learning having a hard day outside of class glad i can be sitting here,this is a really hard day for me today but i really love learning having a hard day outside of class glad i can be sitting here,0.0044,0.0009,0.0017,0.2676,0.0043,0.7107,0.0105,sadness,"Workload, Stress and Well-being"
+1104,COM214,7,6406,4,Nothing today,,,,,,,,,,NA
+1105,COM214,7,6716,4,None.,,,,,,,,,,NA
+1106,COM214,7,6714,4,3,,,,,,,,,,NA
+1107,COM214,7,6597,4,I think it would help if we had more prep in class relating to the PA assignments I always feel a little bit confused or very stressed for them,I think it would help if we had more prep in class relating to the PA assignments I always feel a little bit confused or very stressed for them,0.0152,0.0039,0.881,0.001,0.0167,0.0267,0.0555,fear,Confidence and Support Needs
+1108,COM214,7,6707,4,,,,,,,,,,,NA
+1109,COM214,7,6715,4,"The readings are super interesting, but I struggle to fill 500 words. It's difficult to find the motivation to keep reading knowing that I'll have to embellish some of what I'm writing simply because I can't find the content to fill the word count. The reflections are vital to tracking our understanding, but I think a lower minimum word count would be beneficial.","The readings are super interesting, but I struggle to fill 500 words. It's difficult to find the motivation to keep reading knowing that I'll have to embellish some of what I'm writing simply because I can't find the content to fill the word count. The reflections are vital to tracking our understanding, but I think a lower minimum word count would be beneficial.",0.0089,0.03,0.012,0.019,0.7814,0.0759,0.0728,neutral,Assignments and Grading
+1110,COM214,7,6712,4,less reading,less reading,0.0154,0.0429,0.0059,0.0093,0.3595,0.4994,0.0675,sadness,"Workload, Stress and Well-being"
+1111,COM214,7,6504,4,No,,,,,,,,,,NA
+1112,COM214,7,6709,4,nothing right now,,,,,,,,,,NA
+1180,COM214,8,4806,4,lets go,,,,,,,,,,NA
+1181,COM214,8,6716,4,None.,,,,,,,,,,NA
+1182,COM214,8,6709,4,na,,,,,,,,,,NA
+1183,COM214,8,6703,4,none,,,,,,,,,,NA
+1184,COM214,8,6147,4,no,,,,,,,,,,NA
+1185,COM214,8,6707,4,maybe a little more class practice,maybe a little more class practice,0.008,0.0248,0.004,0.0082,0.9385,0.0097,0.0069,neutral,"Pace, Content Coverage and In-Class Practice"
+1186,COM214,8,6712,4,nah,,,,,,,,,,NA
+1187,COM214,8,6406,4,nothing today,,,,,,,,,,NA
+1188,COM214,8,6580,4,Having a review day,Having a review day,0.0214,0.0142,0.0695,0.1551,0.446,0.1273,0.1664,neutral,"Pace, Content Coverage and In-Class Practice"
+1189,COM214,8,6376,4,No,,,,,,,,,,NA
+1190,COM214,8,6598,4,no,,,,,,,,,,NA
+1191,COM214,8,6288,4,Currently I just feel a bit low and anxious because I've been sick and it's been hard to do work and catch up while being sick since I get sick really bad. But I've manage to try and stay on top of more pressing things like the PA.,Currently I just feel a bit low and anxious because I've been sick and it's been hard to do work and catch up while being sick since I get sick really bad. But I've manage to try and stay on top of more pressing things like the PA.,0.0021,0.0035,0.9403,0.003,0.0146,0.0348,0.0017,fear,"Workload, Stress and Well-being"
+1192,COM214,8,6575,4,happy to be in class,,,,,,,,,,NA
+1193,COM214,8,6583,4,Got confused and did the wrong reading,Got confused and did the wrong reading,0.0498,0.0239,0.093,0.0017,0.6803,0.0886,0.0627,neutral,Confidence and Support Needs
+1269,COM214,9,6707,4,,,,,,,,,,,NA
+1270,COM214,9,6709,4,no,,,,,,,,,,NA
+1271,COM214,9,6406,4,Issue more projects for assignments instead of reflections. I find applying what I learn more useful.,Issue more projects for assignments instead of reflections. I find applying what I learn more useful.,0.0105,0.0321,0.0014,0.6581,0.2782,0.0111,0.0087,joy,Assignments and Grading
+1272,COM214,9,6598,4,,,,,,,,,,,NA
+1273,COM214,9,6504,4,,,,,,,,,,,NA
+1274,COM214,9,6712,4,group projects,group projects,0.0055,0.0025,0.0032,0.0108,0.8867,0.0239,0.0675,neutral,Assignments and Grading
+1275,COM214,9,6703,4,non3,,,,,,,,,,NA
+1276,COM214,9,6289,4,,,,,,,,,,,NA
+1277,COM214,9,6715,4,pls lower min word count for reflections,pls lower min word count for reflections,0.0069,0.0039,0.0036,0.0049,0.8518,0.0396,0.0894,neutral,Assignments and Grading
+1278,COM214,9,6708,4,Maybe explore bootstrap more,Maybe explore bootstrap more,0.0038,0.0027,0.0021,0.0037,0.9765,0.0042,0.007,neutral,"Pace, Content Coverage and In-Class Practice"
+1279,COM214,9,6592,4,more sources maybe on html learning,more sources maybe on html learning,0.0033,0.0029,0.002,0.006,0.9631,0.0036,0.0191,neutral,"Pace, Content Coverage and In-Class Practice"
+1280,COM214,9,6575,4,hard few days but i am very grateful to be here in class today,,,,,,,,,,NA
+1323,COM214,10,6716,4,None.,,,,,,,,,,NA
+1324,COM214,10,6406,4,nothing today,,,,,,,,,,NA
+1325,COM214,10,6707,4,,,,,,,,,,,NA
+1326,COM214,10,4806,4,10,,,,,,,,,,NA
+1327,COM214,10,6504,4,,,,,,,,,,,NA
+1328,COM214,10,6598,4,na,,,,,,,,,,NA
+1341,COM214,11,6712,4,3,,,,,,,,,,NA
+1393,COM214,12,6406,4,"I definitely find the PA assignments useful not just for review but for learning, if smaller similar assignments could be sprinkled throughout the semester that would be great","I definitely find the PA assignments useful not just for review but for learning, if smaller similar assignments could be sprinkled throughout the semester that would be great",0.0047,0.0066,0.0011,0.6574,0.311,0.0052,0.014,joy,Assignments and Grading
+1394,COM214,12,6716,4,,,,,,,,,,,NA
+1395,COM214,12,6575,4,i am happy to be here today,,,,,,,,,,NA
+1396,COM214,12,6504,4,,,,,,,,,,,NA
+1397,COM214,12,6709,4,na,,,,,,,,,,NA
+1398,COM214,12,6598,4,,,,,,,,,,,NA
+1399,COM214,12,6289,4,No,,,,,,,,,,NA
+1400,COM214,12,6703,4,none,,,,,,,,,,NA
+1472,COM214,13,6709,4,na,,,,,,,,,,NA
+1473,COM214,13,6707,4,,,,,,,,,,,NA
+1474,COM214,13,6575,4,very lucky to be here,,,,,,,,,,NA
+1475,COM214,13,6715,4,no,,,,,,,,,,NA
+1476,COM214,13,6598,4,,,,,,,,,,,NA
+1477,COM214,13,6504,4,,,,,,,,,,,NA
+1478,COM214,13,6406,4,nothing today,,,,,,,,,,NA
+1479,COM214,13,6583,4,"Had a long weekend, got a lot on my plate with midterms so I am not very prepared for this class.","Had a long weekend, got a lot on my plate with midterms so I am not very prepared for this class.",0.0085,0.0085,0.3628,0.0143,0.497,0.0849,0.024,neutral,"Workload, Stress and Well-being"
+1480,COM214,13,6716,4,None right now.,,,,,,,,,,NA
+1481,COM214,13,6712,4,,,,,,,,,,,NA
+1548,COM214,14,6707,4,Can you go over the thing you did at the end of class last time where you explained how you saved the changes you made in the Ruby code to your file?,Can you go over the thing you did at the end of class last time where you explained how you saved the changes you made in the Ruby code to your file?,0.0116,0.0109,0.0032,0.0037,0.9049,0.0041,0.0616,neutral,Confidence and Support Needs
+1549,COM214,14,6716,4,,,,,,,,,,,NA
+1550,COM214,14,6504,4,,,,,,,,,,,NA
+1551,COM214,14,6289,4,no,,,,,,,,,,NA
+1552,COM214,14,6709,4,no,,,,,,,,,,NA
+1553,COM214,14,6575,4,i am not feeling great today so i will need to rest a little,,,,,,,,,,NA
+1554,COM214,14,4806,4,5,,,,,,,,,,NA
+1555,COM214,14,6714,4,3,,,,,,,,,,NA
+1556,COM214,14,6598,4,,,,,,,,,,,NA
+1557,COM214,14,6712,4,less work,less work,0.0217,0.0195,0.0069,0.0093,0.4136,0.4777,0.0513,sadness,"Workload, Stress and Well-being"
+1558,COM214,14,6583,4,Midterms have been ruff and I have fallen behind on reading,Midterms have been ruff and I have fallen behind on reading,0.3839,0.047,0.0065,0.0032,0.4254,0.123,0.0111,neutral,"Workload, Stress and Well-being"
+1633,COM214,15,6598,4,,,,,,,,,,,NA
+1634,COM214,15,6716,4,,,,,,,,,,,NA
+1635,COM214,15,4806,4,6,,,,,,,,,,NA
+1636,COM214,15,6712,4,3,,,,,,,,,,NA
+1637,COM214,15,6703,4,none,,,,,,,,,,NA
+1638,COM214,15,6406,4,nothing today,,,,,,,,,,NA
+1639,COM214,15,6575,4,I think that we should do more hands on activities during class like writing ruby on rails together,I think that we should do more hands on activities during class like writing ruby on rails together,0.0076,0.0112,0.0047,0.0072,0.9554,0.0067,0.0072,neutral,"Pace, Content Coverage and In-Class Practice"
+1640,COM214,15,6289,4,no,,,,,,,,,,NA
+1713,COM214,16,6716,4,,,,,,,,,,,NA
+1714,COM214,16,6703,4,none,,,,,,,,,,NA
+1715,COM214,16,6709,4,na,,,,,,,,,,NA
+1716,COM214,16,6289,4,no,,,,,,,,,,NA
+1717,COM214,16,6504,4,,,,,,,,,,,NA
+1718,COM214,16,6707,4,,,,,,,,,,,NA
+1719,COM214,16,4806,4,5,,,,,,,,,,NA
+1720,COM214,16,6406,4,nothing today,,,,,,,,,,NA
+1721,COM214,16,6598,4,no,,,,,,,,,,NA
+1722,COM214,16,6575,4,excited to be here in class,,,,,,,,,,NA
+1723,COM214,16,6714,4,I feel ok at where I am at right now,,,,,,,,,,NA
+1784,COM214,17,6504,4,,,,,,,,,,,NA
+1785,COM214,17,6707,4,,,,,,,,,,,NA
+1786,COM214,17,6575,4,i am excited to be here today,,,,,,,,,,NA
+1787,COM214,17,6598,4,,,,,,,,,,,NA
+1788,COM214,17,6716,4,,,,,,,,,,,NA
+1855,COM214,18,6575,4,very happy to be here,,,,,,,,,,NA
+1856,COM214,18,6707,4,,,,,,,,,,,NA
+1857,COM214,18,6598,4,I love you professor,,,,,,,,,,NA
+1858,COM214,18,6504,4,,,,,,,,,,,NA
+1910,COM214,19,6707,4,,,,,,,,,,,NA
+1911,COM214,19,6598,4,,,,,,,,,,,NA
+1912,COM214,19,6504,4,,,,,,,,,,,NA
+1913,COM214,19,6714,4,3,,,,,,,,,,NA
+1974,COM214,20,6575,4,"glad to be here in class today, hoping that my toy app can work",,,,,,,,,,NA
+1975,COM214,20,6707,4,,,,,,,,,,,NA
+1976,COM214,20,6598,4,no,,,,,,,,,,NA
+2028,COM214,21,6714,4,.,,,,,,,,,,NA
+2029,COM214,21,6707,4,,,,,,,,,,,NA
+2030,COM214,21,4806,4,this is garzain pls save my answersð­ð­ð­ð­,,,,,,,,,,NA
+2031,COM214,21,6598,4,,,,,,,,,,,NA
+2086,COM214,22,6406,4,"I am generally feeling I don't understand a lot of the components of ruby on rails, coming the project time. Furthermore, I don't know what questions to ask if I were to come to office hours","I am generally feeling I don't understand a lot of the components of ruby on rails, coming the project time. Furthermore, I don't know what questions to ask if I were to come to office hours",0.0207,0.0597,0.1418,0.0025,0.4879,0.1155,0.1719,neutral,Confidence and Support Needs
+2087,COM214,22,6707,4,,,,,,,,,,,NA
+2088,COM214,22,6575,4,it was not possible to install the gems i spent all of yesterday working on it,it was not possible to install the gems i spent all of yesterday working on it,0.0067,0.0046,0.008,0.003,0.0406,0.8921,0.045,sadness,Technical Difficulties
+2089,COM214,22,6714,4,3,,,,,,,,,,NA
+2090,COM214,22,6504,4,,,,,,,,,,,NA
+2091,COM214,22,6598,4,,,,,,,,,,,NA
+2143,COM214,24,6707,4,,,,,,,,,,,NA
+2144,COM214,24,6716,4,,,,,,,,,,,NA
+2145,COM214,24,6598,4,,,,,,,,,,,NA
+2146,COM214,24,6504,4,,,,,,,,,,,NA
+2207,COM214,25,6598,4,,,,,,,,,,,NA
+2208,COM214,25,6707,4,,,,,,,,,,,NA
+2209,COM214,25,4806,4,no,,,,,,,,,,NA
+2210,COM214,25,6715,4,no,,,,,,,,,,NA
