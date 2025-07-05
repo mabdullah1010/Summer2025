@@ -1018,6 +1018,392 @@ cluster_summary
 
 
 
+
+
+```{r}
+library(factoextra)
+library(dplyr)
+
+sample_data214 <- read.csv("214_summary_combined.csv", header = TRUE)
+
+numeric_data214 <- sample_data214 %>%
+  select(where(is.numeric)) %>%
+  select(-student_id, -question_response_NA_count, -summary_NA_count, -total_responses) %>%  
+  na.omit()
+
+
+
+elbow_plot214 <- fviz_nbclust(numeric_data214, kmeans, method = "wss")
+elbow_plot214
+
+
+kmeans_result214 <- kmeans(numeric_data214, centers = 3, nstart = 25)
+
+
+k_mean_cluster214 <- fviz_cluster(kmeans_result214, data = numeric_data214,
+                               geom = "point", ellipse.type = "norm", 
+                               main = "K-Means Clustering (k = 3)",
+                               palette = "jco")
+
+
+k_mean_cluster214
+
+sample_data_with_cluster214 <- numeric_data214 %>%
+  as.data.frame() %>%
+  mutate(cluster = as.factor(kmeans_result214$cluster))
+
+cluster_summary214 <- sample_data_with_cluster214 %>%
+  group_by(cluster) %>%
+  summarise(across(everything(), mean))
+
+cluster_summary214
+```
+
+
+
+
+```{r}
+library(ggplot2)
+library(tidyverse)
+
+master_q4 <- read.csv("Mastersheet_q4.csv", header = TRUE)
+
+clean_q4 <- master_q4 %>% filter(clean != "")
+
+theme_order <- clean_q4 %>%
+  count(theme, sort = FALSE) %>%
+  arrange(n) %>%
+  pull(theme)
+
+clean_q4$theme <- factor(clean_q4$theme, levels = theme_order)
+
+hist_theme <- ggplot(clean_q4, aes(x = theme)) +
+  geom_bar(fill = "steelblue") +
+  theme_minimal() +
+  labs(
+    title = "Distribution of Student Feedback Themes (Ascending Order)",
+    x = "Theme",
+    y = "Count"
+  ) +
+  theme(axis.text.x = element_text(angle = 30, hjust = 1))
+
+
+hist_theme
+summary(cleanq4)
+
+```
+
+
+
+
+```{r}
+emotion_cols <- c("anger", "disgust", "fear", "joy", "neutral", "sadness", "surprise")
+emotion_summary <- clean_q4 %>%
+  summarise(across(all_of(emotion_cols), mean, na.rm = TRUE))
+
+emotion_summary
+
+
+class_emotion <- clean_q4 %>% filter(course=="COM212") %>%
+  group_by(class_number, dominant_emotion) %>%
+  summarise(count = n(), .groups = "drop")
+class_emotion
+```
+
+
+
+
+```{r}
+library(dplyr)
+library(ggplot2)
+
+response_counts <- clean_q4 %>%
+  filter(course %in% c("COM212", "COM214")) %>%
+  group_by(course, class_number) %>%
+  summarise(response_count = n(), .groups = "drop") %>%
+  mutate(class_number = factor(class_number))  # Treat class_number as categorical
+
+ggplot(response_counts, aes(x = class_number, y = response_count, group = course, color = course)) +
+  geom_line(size = 1.2) +
+  geom_point(size = 2) +
+  theme_minimal() +
+  geom_smooth(method="lm", se=FALSE)+
+  labs(
+    title = "Number of Student Responses by Class Session",
+    x = "Class Number",
+    y = "Response Count",
+    color = "Course"
+  ) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+
+
+```{r}
+emotion_by_theme <- clean_q4 %>%
+  group_by(theme, dominant_emotion) %>%
+  summarise(count = n(), .groups = "drop") %>%
+  arrange(theme, desc(count))
+
+library(ggplot2)
+
+a <- ggplot(emotion_by_theme, aes(x = theme, y = count, fill = dominant_emotion)) +
+  geom_col(position = "dodge") +
+  theme_minimal() +
+  labs(
+    title = "Distribution of Dominant Emotions Across Themes",
+    x = "Theme",
+    y = "Count",
+    fill = "Dominant Emotion"
+  ) +
+  theme(axis.text.x = element_text(angle = 40, hjust = 1))
+emotion_by_theme
+
+```
+
+
+
+
+```{r}
+library(tidytext)
+library(tidyverse)
+
+word_counts <- clean_q4 %>%
+  unnest_tokens(word, clean) %>%
+  anti_join(stop_words) %>%
+  count(word, sort = TRUE)
+
+```
+
+
+
+
+```{r}
+library(dplyr)
+
+
+emotion_percent_by_theme <- clean_q4 %>%
+  group_by(theme, dominant_emotion) %>%
+  summarise(count = n(), .groups = "drop") %>%
+  group_by(theme) %>%
+  mutate(percent = count / sum(count) * 100)  # percentage 
+
+library(ggplot2)
+# Order themes by total count
+theme_order <- clean_q4 %>%
+  count(theme) %>%
+  arrange(desc(n)) %>%
+  pull(theme)
+
+emotion_order <- clean_q4 %>%
+  count(dominant_emotion) %>%
+  arrange(desc(n)) %>%
+  pull(dominant_emotion)
+
+emotion_percent_by_theme$theme <- factor(emotion_percent_by_theme$theme, levels = theme_order)
+emotion_percent_by_theme$dominant_emotion <- factor(emotion_percent_by_theme$dominant_emotion, levels = emotion_order)
+
+theme_emotions <- ggplot(emotion_percent_by_theme, aes(x = dominant_emotion, y = theme, fill = percent)) +
+  geom_tile(color = "white") +
+  scale_fill_gradient(low = "#f0f0f0", high = "#1b7837") +
+  labs(
+    title = "Heatmap: Percentage of Emotions by Theme",
+    x = "Dominant Emotion",
+    y = "Theme",
+    fill = "% within Theme"
+  ) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 30, hjust = 1))
+
+
+```
+
+
+
+
 ```{r}
 
 ```
+
+
+
+
+```{r}
+library(dplyr)
+library(readr)
+
+q4_data <- read_csv("Mastersheet_q4.csv")
+
+grades_data <- read_csv("responses_grades_mastersheet.csv")
+
+#master <- q4_data %>%
+  left_join(grades_data, by = c("student_id", "course", "class_number"))
+
+# Write to new CSV
+#master <- master %>% filter(master$clean != "")
+#write_csv(master, "master.csv")
+
+
+```
+
+
+
+
+```{r}
+master <- read.csv("Q4_master.csv", header=TRUE)
+
+numeric_data <- master %>%
+  select(where(is.numeric)) %>%
+  select(-student_id, -response_id, -class_number) %>%  
+  na.omit()
+
+
+
+elbow_plot <- fviz_nbclust(numeric_data, kmeans, method = "wss")
+elbow_plot
+
+
+kmeans_result <- kmeans(numeric_data, centers = 3, nstart = 25)
+
+
+k_mean_cluster <- fviz_cluster(kmeans_result, data = numeric_data,
+                               geom = "point", ellipse.type = "norm", 
+                               main = "K-Means Clustering (k = 3)",
+                               palette = "jco")
+
+
+k_mean_cluster
+
+sample_data_with_cluster <- numeric_data %>%
+  as.data.frame() %>%
+  mutate(cluster = as.factor(kmeans_result$cluster))
+
+cluster_summary <- sample_data_with_cluster %>%
+  group_by(cluster) %>%
+  summarise(across(everything(), mean))
+
+cluster_summary
+```
+
+
+
+
+```{r}
+library(tidyverse)
+
+data <- read_csv("Q4_master.csv")
+
+data <- data %>%
+  mutate(
+    `Course Grade` = as.numeric(`Course Grade`),
+    joy = as.numeric(joy),
+    neutral = as.numeric(neutral),
+    dominant_emotion = as.factor(dominant_emotion)
+  ) %>%
+  drop_na(`Course Grade`, joy, neutral, dominant_emotion)
+
+quantile_75 <- quantile(data$`Course Grade`, 0.75)
+
+data <- data %>%
+  mutate(
+    performance_group = ifelse(`Course Grade` >= quantile_75, "High", "Others")
+  )
+
+data %>%
+  group_by(performance_group) %>%
+  summarise(
+    avg_joy = mean(joy),
+    avg_neutral = mean(neutral),
+    count = n()
+  )
+
+ggplot(data, aes(x = performance_group, y = joy, fill = performance_group)) +
+  geom_boxplot() +
+  labs(title = "Joy Score by Performance Group", y = "Joy Score")
+
+ggplot(data, aes(x = performance_group, y = neutral, fill = performance_group)) +
+  geom_boxplot() +
+  labs(title = "Neutral Score by Performance Group", y = "Neutral Score")
+
+t.test(joy ~ performance_group, data = data)
+t.test(neutral ~ performance_group, data = data)
+
+dominant_table <- data %>%
+  group_by(performance_group, dominant_emotion) %>%
+  summarise(n = n()) %>%
+  group_by(performance_group) %>%
+  mutate(percent = n / sum(n) * 100)
+
+a <- ggplot(dominant_table, aes(x = dominant_emotion, y = percent, fill = performance_group)) +
+  geom_col(position = "dodge") +
+  labs(title = "Dominant Emotion Distribution by Performance Group", y = "Percentage", x= "Dominant Emotion")
+
+emotion_table <- table(data$performance_group, data$dominant_emotion)
+chisq.test(emotion_table)
+
+emotion_corr <- data %>%
+  select(`Course Grade`, joy, neutral) %>%
+  cor(use = "complete.obs")
+
+print(emotion_corr)
+
+
+
+```
+
+
+
+
+```{r}
+library(ggplot2)
+
+emotion_colors <- c(
+  "joy" = "#FFC107",         # Amber
+  "neutral" = "#6C757D",     # Gray
+  "sadness" = "#007BFF",     # Blue
+  "anger" = "#DC3545",       # Red
+  "fear" = "#6610f2",        # Purple
+  "disgust" = "#28a745",     # Green
+  "surprise" = "#fd7e14"     # Orange
+)
+
+pie_chart <- ggplot(dominant_table, aes(x = "", y = percent, fill = dominant_emotion)) +
+  geom_col(width = 1, color = "white") +
+  coord_polar(theta = "y") +
+  facet_wrap(~ performance_group) +
+  scale_fill_manual(values = emotion_colors) +
+  labs(title = "Dominant Emotions by Performance Group", fill = "Dominant Emotion") +
+  theme_void() +
+  theme(
+    strip.text = element_text(size = 12, face = "bold"),
+    plot.title = element_text(hjust = 0.5, face = "bold", size = 14),
+    legend.title = element_text(face = "bold")
+  )
+
+print(pie_chart)
+
+emotion_table <- table(dominant_table$performance_group, dominant_table$dominant_emotion)
+emotion_chisq <- chisq.test(emotion_table)
+
+print(emotion_chisq)
+
+
+```
+
+
+
+
+```{r}
+emotion_q_corr <- data %>%
+  select(Q1, Q2, Q3, sadness, anger, disgust)
+
+cor_matrix <- cor(emotion_q_corr, use = "complete.obs")
+print(cor_matrix)
+
+```
+
+```{r}
+
+```
+ 
+ 
